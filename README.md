@@ -3,7 +3,9 @@
 I am a 3rd year PhD student in economics at Seoul National University (SNU), where I am fortunate to be supervised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am broadly interested in applied and theoretical econometrics. My current research focuses on panel data econometrics. You can find my CV of pdf version here.
 
 ## Education
-- Ph.D., Economics, Seoul National University (SNU) (_present_)								       		
+- Ph.D., Economics, Seoul National University (SNU) (_present_)
+  - Advisor: Seojeong Lee
+  - Dissertation: TBD   								       		
 - B.S., Mathematics, Chungnam National University (CNU) (_March 2022_)
 - B.A., Economics, Chungnam National University (CNU) (_March 2022_)
   
@@ -13,4 +15,15 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 
 ## Awards, Grants, and Fellowship
 - BK21 Fellowship, Department of Economics, SNU (_Fall 2022_)
-- Academic Competition 
+- Academic Competition Excellence Award, Department of Economics, CNU (_Fall 2021)
+- Academic Excellence Scholarship, Department of Economics, CNU (_2016 to 2022_)
+  - 5 times full tuition scholarship, 2 times partial tuition scholarship
+ 
+## Teaching progress
+- Studies in Econometrics (graduate), Teaching assistant for Prof. Seojeong Lee, SNU (_Fall 2023_)
+- Econometrics (undergraduate), Grading assistant for Prof. Seojeong Lee, SNU (_Spring 2023_)
+
+## Skills
+-  Programming: R, Stata
+-  Languages: Korean (native), English (fluent)
+-  Military Service: Sergeant, Republic of Korea Air Force, 2018-2020 
