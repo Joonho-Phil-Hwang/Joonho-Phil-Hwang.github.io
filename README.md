@@ -7,7 +7,7 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 ## Education
 Ph.D, Economics | Seoul National University (SNU) (_2022 to present_)								       		
 
-B.A, Economics & B.S, Mathematics | Chungnam National University (CNU) (_2016 to 2022_)
+B.A, Economics | Chungnam National University (CNU) (_2016 to 2022_)
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
