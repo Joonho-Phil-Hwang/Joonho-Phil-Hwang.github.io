@@ -8,10 +8,7 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 - B.A., Economics, Chungnam National University (CNU) (_March 2022_)
   
 ## Work in Progress
-### Online Recursive Algorithm for Two Way Fixed Effects
-### An Improved Fixed Effecet Estimator for Unbalanced Data
+- Online Recursive Algorithm for Two Way Fixed Effects
+- An Improved Fixed Effecet Estimator for Unbalanced Data
 
 ## Awards, Grants, and Fellowship
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
