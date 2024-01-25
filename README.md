@@ -5,8 +5,8 @@
 I am a 3rd year PhD student in economics at Seoul National University (SNU), where I am fortunate to be supervised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am broadly interested in applied and theoretical econometrics. My current research focuses on panel data econometrics. You can find my CV of pdf version here.
 
 ## Education
-- Integrated M.A. & Ph.D. in Economics | Seoul National University (SNU) (_2022 to present_)								       		
-- B.A. in Economics and B.S. in Mathematics  | Chungnam National University (_2016 to 2022_)
+Integrated M.A. & Ph.D. in Economics | Seoul National University (SNU) (_2022 to present_)								       		
+B.A. in Economics and B.S. in Mathematics  | Chungnam National University (_2016 to 2022_)
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
