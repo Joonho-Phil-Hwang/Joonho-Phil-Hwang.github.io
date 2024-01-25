@@ -1,5 +1,5 @@
 ## Bio
-I am a 3rd year PhD student in economics at Seoul National University (SNU), where I am fortunate to be supervised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am broadly interested in applied and theoretical econometrics. My current research focuses on panel data econometrics. You can find my CV of pdf version here.
+I am a 3rd year PhD student in economics at Seoul National University (SNU), where I am fortunate to be supervised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am broadly interested in applied and theoretical econometrics. My current research focuses on panel data econometrics. You can find my [CV](https://drive.google.com/file/d/1mW8LhcVXJN9eTdiTD0RrNG0P0bU45kY1/view?usp=share_link) of pdf version here.
 
 ## Education
 - Ph.D., Economics, Seoul National University (SNU) (_present_)
