@@ -19,9 +19,8 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 - Academic Excellence Scholarship, Department of Economics, CNU (_2016 to 2022_)
   - 5 times full tuition scholarship, 2 times partial tuition scholarship
  
-## Teaching progress
+## Teaching experiences
 - Studies in Econometrics (graduate), Teaching assistant for Prof. Seojeong Lee, SNU (_Fall 2023_)
-- Econometrics (undergraduate), Grading assistant for Prof. Seojeong Lee, SNU (_Spring 2023_)
 
 ## Skills
 -  Programming: R, Stata
