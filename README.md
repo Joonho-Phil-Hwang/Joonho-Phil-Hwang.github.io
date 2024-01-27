@@ -24,4 +24,5 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 ## Skills
 -  Programming: R, Stata
 -  Languages: Korean (native), English (fluent)
+-  Citenzhip: Korea, USA (dual)
 -  Military Service: Sergeant, Republic of Korea Air Force, 2018-2020 
