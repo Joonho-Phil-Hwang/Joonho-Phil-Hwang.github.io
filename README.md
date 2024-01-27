@@ -1,4 +1,4 @@
-## PhD student in economics
+
 I am a 3rd year PhD student in economics at Seoul National University (SNU), where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am broadly interested in applied and theoretical econometrics. My current research focuses on panel data econometrics. Click [here](https://drive.google.com/file/d/1mW8LhcVXJN9eTdiTD0RrNG0P0bU45kY1/view?usp=share_link) for a copy of my CV.
 
 ## Education
@@ -9,8 +9,8 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 - B.A., Economics, Chungnam National University (CNU) (_March 2022_)
   
 ## Work in Progress
-### Recursive Online Algorithm for Two-Way Fixed Effects Regressions (with Seojeong Lee)
-### An Improved Fixed Effecet Estimator for Unbalanced Data (with Seojeong Lee)
+**Recursive Online Algorithm for Two-Way Fixed Effects Regressions** (with Seojeong Lee)
+**An Improved Fixed Effecet Estimator for Unbalanced Data** (with Seojeong Lee)
 
 ## Awards, Grants, and Fellowship
 - BK21 Fellowship, Department of Economics, SNU (_Fall 2022_)
