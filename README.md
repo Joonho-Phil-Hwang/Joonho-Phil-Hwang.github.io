@@ -12,8 +12,6 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
   </p>
 </details>
 
-<br>
-
 <details>
   <summary><strong><span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Panel Data</span></strong> (with Seojeong Lee)</summary>
   <p>
