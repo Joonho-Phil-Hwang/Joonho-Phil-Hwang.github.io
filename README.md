@@ -3,27 +3,28 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
   
 ## Work in Progress
 <details>
-  <summary><strong><span style="color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions </span></strong>(with Seojeong Lee)</summary>
+  <summary><strong><span style="color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span></strong> (with Seojeong Lee)</summary>
   <p>
 
-  <!-- Absract -->
+  <!-- Abstract -->
   Abstract
 
   </p>
 </details>
 
+<br>
 
 <details>
-  <summary><strong><span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Panel Data </span></strong>(with Seojeong Lee)</summary>
+  <summary><strong><span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Panel Data</span></strong> (with Seojeong Lee)</summary>
   <p>
 
-  <!-- Absract -->
+  <!-- Abstract -->
   Abstract
 
   </p>
 </details>
 
-
+<br>
 
 ## Awards, Grants, and Fellowship
 - BK21 Fellowship, Department of Economics, SNU (_Fall 2022_)
