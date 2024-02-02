@@ -22,6 +22,7 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
   </p>
 </details>
 
+<br>
 
 ## Awards, Grants, and Fellowship
 - BK21 Fellowship, Department of Economics, SNU (_Fall 2022_)
