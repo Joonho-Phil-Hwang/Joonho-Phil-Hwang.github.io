@@ -2,11 +2,26 @@
 I am a 3rd year PhD student in economics at Seoul National University (SNU), where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am broadly interested in applied and theoretical econometrics. My current research focuses on panel data econometrics. Click [here](https://drive.google.com/file/d/1mW8LhcVXJN9eTdiTD0RrNG0P0bU45kY1/view?usp=share_link) for a copy of my CV.
   
 ## Work in Progress
-**<span style="color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span>**  
-(with Seojeong Lee)
+<details>
+  <summary><strong><span style="color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions </span></strong>(with Seojeong Lee)</summary>
+  <p>
 
-**<span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Data</span>**  
-(with Seojeong Lee)
+  <!-- Absract -->
+  Abstract
+
+  </p>
+</details>
+
+
+<details>
+  <summary><strong><span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Panel Data </span></strong>(with Seojeong Lee)</summary>
+  <p>
+
+  <!-- Absract -->
+  Abstract
+
+  </p>
+</details>
 
 
 
