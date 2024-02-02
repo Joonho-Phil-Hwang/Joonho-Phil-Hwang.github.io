@@ -3,7 +3,11 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
   
 ## Work in Progress
 **<span style="color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span>**  
-**<span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Data</span>**
+(with Seojeong Lee)
+
+**<span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Data</span>**  
+(with Seojeong Lee)
+
 
 
 ## Awards, Grants, and Fellowship
