@@ -9,13 +9,11 @@ with
 <details>
     <summary>
       [Abstract]
-      [<a href="https://doi.org/10.1080/00343404.2021.1998418">Paper</a>]
-      [<a href="https://www.tandfonline.com/doi/suppl/10.1080/00343404.2021.1998418">Supplementary Appendix</a>]
+      [<a href="">Paper</a>]
     </summary>
     <p style="text-align: justify;">TBD.</p>
   </details>
   <p></p>
-  </li>
   
 **<span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Data</span>**  
 with 
@@ -23,13 +21,11 @@ with
 <details>
     <summary>
       [Abstract]
-      [<a href="https://doi.org/10.1080/00343404.2021.1998418">Paper</a>]
-      [<a href="https://www.tandfonline.com/doi/suppl/10.1080/00343404.2021.1998418">Supplementary Appendix</a>]
+      [<a href="">Paper</a>]
     </summary>
     <p style="text-align: justify;">TBD.</p>
   </details>
   <p></p>
-  </li>
 
 
 ## Awards, Grants, and Fellowship
