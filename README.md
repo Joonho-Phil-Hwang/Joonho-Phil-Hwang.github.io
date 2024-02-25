@@ -5,27 +5,11 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 
 **<span style="color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span>**  
 with 
-<a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a>
-<details>
-    <summary>
-      [Abstract]
-      [<a href="">Paper</a>]
-    </summary>
-    <p style="text-align: justify;">TBD.</p>
-  </details>
-  <p></p>
+<a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br />
   
 **<span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Data</span>**  
 with 
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a>
-<details>
-    <summary>
-      [Abstract]
-      [<a href="">Paper</a>]
-    </summary>
-    <p style="text-align: justify;">TBD.</p>
-  </details>
-  <p></p>
 
 
 ## Awards, Grants, and Fellowship
