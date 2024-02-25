@@ -2,11 +2,34 @@
 I am a 3rd year PhD student in economics at Seoul National University (SNU), where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am broadly interested in applied and theoretical econometrics. My current research focuses on panel data econometrics. Click [here](https://drive.google.com/file/d/1mW8LhcVXJN9eTdiTD0RrNG0P0bU45kY1/view?usp=share_link) for a copy of my CV.
 
 ## Work in Progress
-**<span style="color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span>**  
-(with Seojeong Lee)
 
+**<span style="color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span>**  
+with 
+<a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a>
+<details>
+    <summary>
+      [Abstract]
+      [<a href="https://doi.org/10.1080/00343404.2021.1998418">Paper</a>]
+      [<a href="https://www.tandfonline.com/doi/suppl/10.1080/00343404.2021.1998418">Supplementary Appendix</a>]
+    </summary>
+    <p style="text-align: justify;">TBD.</p>
+  </details>
+  <p></p>
+  </li>
+  
 **<span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Data</span>**  
-(with Seojeong Lee)
+with 
+<a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a>
+<details>
+    <summary>
+      [Abstract]
+      [<a href="https://doi.org/10.1080/00343404.2021.1998418">Paper</a>]
+      [<a href="https://www.tandfonline.com/doi/suppl/10.1080/00343404.2021.1998418">Supplementary Appendix</a>]
+    </summary>
+    <p style="text-align: justify;">TBD.</p>
+  </details>
+  <p></p>
+  </li>
 
 
 ## Awards, Grants, and Fellowship
