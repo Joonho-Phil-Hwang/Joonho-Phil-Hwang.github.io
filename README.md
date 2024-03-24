@@ -7,7 +7,7 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 with 
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br />
   
-**<span style="color: gray;">An Improved Fixed Effect Estimator for Unbalanced Data</span>**  
+**<span style="color: gray;">Heteroskedasticity-Robust Variance Estimation for Pairwise Difference Estimator in Unbalanced Panel</span>**  
 with 
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a>
 
