@@ -8,7 +8,7 @@ with
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br />
 
 ## Awards, Grants, and Fellowship
-- BK21 Fellowship, Department of Economics, SNU (_Fall 2022_)
+- BK21 Fellowship, Department of Economics, SNU (_Fall 2022_, _Fall 2024_)
 - Academic Competition Excellence Award, Department of Economics, CNU (_Fall 2021_)
 - Academic Excellence Scholarship, Department of Economics, CNU (_2016 to 2022_)
   - 5 times full tuition scholarship, 2 times partial tuition scholarship
