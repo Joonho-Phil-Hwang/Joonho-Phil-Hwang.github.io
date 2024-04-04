@@ -6,11 +6,6 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 **<span style="color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span>**  
 with 
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br />
-  
-**<span style="color: gray;">Heteroskedasticity-Robust Standard Error for Pairwise Difference Estimator in Unbalanced Panel Data</span>**  
-with 
-<a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a>
-
 
 ## Awards, Grants, and Fellowship
 - BK21 Fellowship, Department of Economics, SNU (_Fall 2022_)
