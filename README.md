@@ -2,9 +2,6 @@
   body {
     font-family: Arial, sans-serif;
   }
-  a {
-    color: blue;
-  }
 </style>
 
 ## Bio
