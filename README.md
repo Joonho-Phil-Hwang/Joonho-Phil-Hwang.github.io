@@ -3,7 +3,7 @@
     font-family: Arial, sans-serif;
   }
   a {
-    color: green;
+    color: blue;
   }
 </style>
 
@@ -12,11 +12,11 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 
 ## Working Papers / Work in Progress
 
-**<span style="font-family: Arial, sans-serif; color: black;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span>**  
+**<span style="font-family: Arial, sans-serif; color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span>**  
 with 
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br />
 
-**<span style="font-family: Arial, sans-serif; color: black;">Heteroskedasticity-Robust Standard Error for Pairwise Difference Estimator in Unbalanced Panel Data</span>**
+**<span style="font-family: Arial, sans-serif; color: gray;">Heteroskedasticity-Robust Standard Error for Pairwise Difference Estimator in Unbalanced Panel Data</span>**
 
 ## Awards, Grants, and Fellowship
 - BK21 Fellowship, Department of Economics, SNU (_Fall 2022_, _Fall 2024_)
