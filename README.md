@@ -1,6 +1,6 @@
 <style>
   body {
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
   }
 </style>
 
