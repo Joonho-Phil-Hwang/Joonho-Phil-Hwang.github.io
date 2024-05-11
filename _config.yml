@@ -3,3 +3,6 @@ logo: /assets/img/Profile2.png
 description: PhD student in economics at SNU
 show_downloads: false
 theme: jekyll-theme-minimal
+header:
+  image: /assets/img/Profile2.png
+  image_width: 50%  # 이미지의 폭을 50%로 지정합니다.
