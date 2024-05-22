@@ -8,7 +8,7 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 with 
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br />
 
-Abstract: We discuss efficient methods for estimating the coefficients of one-
+_Abstract_: We discuss efficient methods for estimating the coefficients of one-
 way fixed effect and two-way fixed effect models. The estimation process is
 referred to as the recursive online algorithm. Panel data expansion can occur
 in two dimensions: (1) by adding a new individual with some time periods to
