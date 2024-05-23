@@ -18,4 +18,4 @@ and two-way fixed effects models.
 
 ### Work in Progress
 
-**<span style="font-family: Arial, sans-serif; color: gray;">Heteroskedasticity-Robust Standard Error for Pairwise Difference Estimator in Unbalanced Panel Data</span>**
+**<span style="font-family: Arial, sans-serif; color: gray;">Pairwise-Difference Generalized Method of Moments</span>**
