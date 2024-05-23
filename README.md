@@ -2,7 +2,7 @@
 
 I am a 3rd year PhD student in economics at Seoul National University (SNU), where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am broadly interested in applied and theoretical econometrics. My current research focuses on panel data econometrics. Click [here](https://drive.google.com/file/d/1QgjoV65MqvTNHmhO82AL7BJJ72KxK_q3/view?usp=share_link) for a copy of my CV.
 
-### Working Papers 
+### Work in Progress
 
 **<span style="font-family: Arial, sans-serif; color: gray;">Recursive Online Algorithm for Two-Way Fixed Effects Regressions</span>**  
 with 
@@ -15,7 +15,5 @@ in two dimensions: (1) by adding a new individual with some time periods to
 the dataset, and (2) by adding additional time periods for an existing individual.
 We address these scenarios and derive regression estimators for both one-way
 and two-way fixed effects models. 
-
-### Work in Progress
 
 **<span style="font-family: Arial, sans-serif; color: gray;">Pairwise-Difference Generalized Method of Moments</span>**
