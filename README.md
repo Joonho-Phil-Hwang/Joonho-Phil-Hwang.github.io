@@ -8,17 +8,6 @@ I am a 3rd year PhD student in economics at Seoul National University (SNU), whe
 with 
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br />
 
-<details>
-	<summary> Abstract </summary>
-  	<div markdown="1">
-      We discuss efficient methods for estimating the coefficients of one-
-way fixed effect and two-way fixed effect models. The estimation process is
-referred to as the recursive online algorithm. Panel data expansion can occur
-in two dimensions: (1) by adding a new individual with some time periods to
-the dataset, and (2) by adding additional time periods for an existing individual.
-We address these scenarios and derive regression estimators for both one-way
-and two-way fixed effects models. 
-  	</div>
-</details> 
+_Abstract_: We discuss efficient methods for estimating the coefficients of one-way fixed effect and two-way fixed effect models. The estimation process is referred to as the recursive online algorithm. Panel data expansion can occur in two dimensions: (1) by adding a new individual with some time periods to the dataset, and (2) by adding additional time periods for an existing individual. We address these scenarios and derive regression estimators for both one-way and two-way fixed effects models. 
 
 **<span style="font-family: Arial, sans-serif; color: gray;">Pairwise-Difference Generalized Method of Moments</span>**
