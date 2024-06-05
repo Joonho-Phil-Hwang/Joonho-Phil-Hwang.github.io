@@ -1,4 +1,4 @@
-### Welocome to my website! 
+### Welcome to my website! 
 
 I am a 3rd year PhD student in economics at Seoul National University (SNU), where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am interested in econometrics with a focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1IFLzUGCty21oBD8adDTvT53uutwYUYbJ/view?usp=sharing) for a copy of my CV.
 
