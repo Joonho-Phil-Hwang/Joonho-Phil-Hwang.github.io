@@ -31,5 +31,9 @@ layout: null
         <priority>{{ post.sitemap.priority }}</priority>
         {% endif %}
     </url>
+
+User-agent: *
+Allow: /
+Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}
     {% endfor %}
 </urlset>
