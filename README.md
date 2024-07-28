@@ -6,14 +6,10 @@ I am a 3rd year PhD student in economics at Seoul National University, where I a
 
 <details>
 <summary markdown='span'>
-<a style="text-decoration: none;">
-  <span style="font-weight: bold; color: gray;"
-    onmouseover="this.style.color='#69b0c5';"
-    onmouseout="this.style.color='gray';">
+  <span style="font-weight: bold; color: gray;">
     <strong>Recursive Online Algorithm for Two-Way Fixed Effects Regressions</strong>
   </span>
-</a>
-<br> with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br /> 
+  <br> with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br /> 
 </summary>
 
 <span style="font-size: 95%; margin-top: 20px; display: block; text-align: justify;">
