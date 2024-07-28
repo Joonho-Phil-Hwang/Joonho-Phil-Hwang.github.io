@@ -7,7 +7,7 @@ I am a 3rd year PhD student in economics at Seoul National University, where I a
 <details>
 <summary markdown='span'>
   <span style="font-weight: bold; color: gray;">
-    <strong>Recursive Online Algorithm for Two-Way Fixed Effects Regressions</strong>
+    Recursive Online Algorithm for Two-Way Fixed Effects Regressions
   </span>
   <br> with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br /> 
 </summary>
