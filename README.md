@@ -9,3 +9,23 @@ with
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br />
 
 _Abstract_: We discuss efficient methods for estimating the coefficients of one-way fixed effect and two-way fixed effect models. The estimation process is referred to as the recursive online algorithm. Panel data expansion can occur in two dimensions: (1) by adding a new individual with some time periods to the dataset, and (2) by adding additional time periods for an existing individual. We address these scenarios and derive regression estimators for both one-way and two-way fixed effects models. 
+
+
+
+<details>
+<summary markdown='span'>
+<a style="text-decoration: none; color: gray; font-weight: bold;">
+  <span style="font-weight: bold; color: gray;"
+    onmouseover="this.style.color='#69b0c5';"
+    onmouseout="this.style.color='#4a4e52';">
+    <span style="display: inline-block; text-decoration: underline;">
+      <strong>Recursive Online Algorithm for Two-Way Fixed Effects Regressions</strong>
+    </span>
+  </span>
+</a>
+<br> with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br /> 
+</summary>
+
+<span style="font-size: 95%;margin-top: 20px; display: block;text-align: justify;"> _Abstract_: We discuss efficient methods for estimating the coefficients of one-way fixed effect and two-way fixed effect models. The estimation process is referred to as the recursive online algorithm. Panel data expansion can occur in two dimensions: (1) by adding a new individual with some time periods to the dataset, and (2) by adding additional time periods for an existing individual. We address these scenarios and derive regression estimators for both one-way and two-way fixed effects models.</span>
+
+</details>
