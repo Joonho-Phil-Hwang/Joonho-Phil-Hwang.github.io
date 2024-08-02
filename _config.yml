@@ -1,9 +1,7 @@
 title: Joonho (Phil) Hwang
 url: https://joonho-phil-hwang.github.io
 logo: /assets/img/profile.png
+description: 🖐️
 show_downloads: false
 theme: jekyll-theme-minimal
-sass:
-  style: compressed
-custom_css: assets/css/custom.css
 google_site_verification: "nJZS8P1pi_xAjH-fMItjcU3Ek_wyatmWAhKJQ20Kj-U"
