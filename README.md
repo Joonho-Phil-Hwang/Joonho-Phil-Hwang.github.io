@@ -18,6 +18,7 @@ I am a 3rd year PhD student in economics at Seoul National University, where I a
 
 </details>
 
+<br/>
 
 <details>
 <summary markdown='span'>
