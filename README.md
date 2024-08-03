@@ -17,3 +17,18 @@ I am a 3rd year PhD student in economics at Seoul National University, where I a
 </span>
 
 </details>
+
+<details>
+<summary markdown='span'>
+  <span style="font-weight: bold; color: gray;">
+    Robust Bias Correction for Large Panel Data
+  </span>
+  <br> with <a href="https://www.econ.uni-bonn.de/en/department/doctoral-students/chencheng-fang">Chengcheng Fang</a><br /> 
+</summary>
+
+<span style="font-size: 95%; margin-top: 20px; display: block; text-align: justify;">
+  <em>Abstract</em>: 
+</span>
+
+</details>
+
