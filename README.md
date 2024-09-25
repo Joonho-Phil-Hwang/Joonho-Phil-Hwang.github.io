@@ -7,13 +7,13 @@ I am a 3rd year PhD student in economics at Seoul National University, where I a
 <details>
 <summary markdown='span'>
   <span style="font-weight: bold; color: gray;">
-    Recursive Online Algorithm for Two-Way Fixed Effects Regressions
+    Online Estimation for Fixed Effects Regressions
   </span>
   <br> with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br /> 
 </summary>
 
 <span style="font-size: 95%; margin-top: 20px; display: block; text-align: justify;">
-  <em>Abstract</em>: We discuss efficient methods for estimating the coefficients of one-way fixed effect and two-way fixed effect models. The estimation process is referred to as the recursive online algorithm. Panel data expansion can occur in two dimensions: (1) by adding a new individual with some time periods to the dataset, and (2) by adding additional time periods for an existing individual. We address these scenarios and derive regression estimators for both one-way and two-way fixed effects models.
+  <em>Abstract</em>: We discuss online estimation methods for commonly used linear fixed effects models in panel data. Due to the huge dataset or confidential issues, researchers may not be able to store and access entire historical data. In this paper, we propose online updating procedure of fixed effects estimators with memory efficiency. Panel data expansion can occur in two dimensions: (1) new individual with time periods, and (2) new time periods for an existing individual. We address these scenarios and derive regression estimators for fixed effects models.
 </span>
 
 </details>
