@@ -7,7 +7,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a 3rd year PhD c
 <details>
 <summary markdown='span'>
   <span style="font-weight: bold; color: gray;">
-    Online Estimation for Fixed Effects Regressions
+    Online Updating for Linear Panel Fixed Effects Models
   </span>
   <br> with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br /> 
 </summary>
