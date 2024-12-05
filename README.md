@@ -1,4 +1,4 @@
-### About me
+### About me
 
 My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a 3rd year PhD candidate in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). 
 
