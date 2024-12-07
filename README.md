@@ -4,7 +4,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a 3rd year PhD c
 
 I am interested in econometrics with a focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1F2MNl0x-sx6mEXO6qWHMkm_qHsF5i1us/view?usp=sharing) for a copy of my CV (updated July 2024).
 
-### Work in Progress
+### Work in progress
 
 <details>
 <summary markdown='span'>
