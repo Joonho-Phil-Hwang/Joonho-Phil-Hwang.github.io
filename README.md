@@ -20,6 +20,8 @@ I am interested in econometrics with a focus on panel data and causal inference.
 
 </details>
 
+</br>
+
 <details>
 <summary markdown='span'>
   <span style="font-weight: bold; color: gray;">
