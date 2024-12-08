@@ -20,7 +20,7 @@ I am interested in econometrics with a focus on panel data and causal inference.
 
 </details>
 
-</br>
+<br>
 
 <details>
 <summary markdown='span'>
