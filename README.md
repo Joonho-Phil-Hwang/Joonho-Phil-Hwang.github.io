@@ -7,7 +7,7 @@ I am interested in econometrics with a focus on panel data and causal inference.
 ### Work in progress
 
 <details>
-<p><summary markdown='span'>
+<summary markdown='span'>
   <span style="font-weight: bold; color: gray;">
     Online Updating for Linear Panel Fixed Effects Models
   </span>
@@ -20,8 +20,10 @@ I am interested in econometrics with a focus on panel data and causal inference.
 
 </details>
 
+<div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
+
 <details>
-<p><summary markdown='span'>
+<summary markdown='span'>
   <span style="font-weight: bold; color: gray;">
     Synthetic Difference-in-Differences with Outcomes Missing Not at Random
   </span>
