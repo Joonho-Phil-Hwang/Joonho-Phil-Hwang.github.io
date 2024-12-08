@@ -9,7 +9,7 @@ I am interested in econometrics with a focus on panel data and causal inference.
 <details>
 <summary markdown='span'>
   <span style="font-weight: bold; color: gray;">
-    Online Updating for Linear Panel Fixed Effects Models
+    Online Updating for Linear Panel Data Models
   </span>
   <br> with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br /> 
 </summary>
