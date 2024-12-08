@@ -20,5 +20,16 @@ I am interested in econometrics with a focus on panel data and causal inference.
 
 </details>
 
-<br/>
+<details>
+<summary markdown='span'>
+  <span style="font-weight: bold; color: gray;">
+    Synthetic Difference-in-Differences with Outcomes Missing Not at Random
+  </span>
+  <br> with <a href="https://www.econ.uni-bonn.de/en/department/doctoral-students/chencheng-fang">Chengcheng Fang</a><br /> 
+</summary>
 
+<span style="font-size: 95%; margin-top: 20px; display: block; text-align: justify;">
+  <em>Abstract</em>: TBD
+</span>
+
+</details>
