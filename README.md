@@ -11,7 +11,7 @@ I am interested in econometrics with a focus on panel data and causal inference.
   <span style="font-weight: bold; color: gray;">
     Online Updating for Linear Panel Data Models 
   </span>
-  <br> with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a> [slides]<br /> 
+  <br> with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a> <a href="https://drive.google.com/file/d/1RYYiOoaNpwb0QlAOAeb1EZ90yPcIShnK/view?usp=sharing">[slides]</a><br /> 
 </summary>
 
 <span style="font-size: 95%; margin-top: 20px; display: block; text-align: justify;">
