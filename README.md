@@ -3,14 +3,22 @@
 My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year PhD candidate in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am interested in econometrics with a focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1D1kX0qi5IJsP2ikEBsCDgj1oTDCIpTzR/view?usp=sharing) for a copy of my CV.
 
 ### Work in progress
+<div>
+  <span style="font-weight: bold; color: gray;">Online Updating for Linear Panel Regressions</span>
+  <a href="https://drive.google.com/file/d/1RYYiOoaNpwb0QlAOAeb1EZ90yPcIShnK/view?usp=sharing">[slides]</a><br>
+  <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a> and Joonho Hwang<details style="margin: 0; padding: 0; display: inline-block;"><summary style="margin: 0; padding: 0; display: inline;"><span style="font-weight: bold; color: gray;">abstract</span></summary>
+    <span style="font-size: 95%; margin-top: 10px; display: block; text-align: justify;">
+      In this article, we address online estimation methods for widely used linear fixed effects models in panel data. Online estimation involves estimation procedures where data arrives sequentially, without requiring access to the historical dataset. Given the potential size of the dataset or data confidentiality constraints, researchers may be unable to store and access the entire dataset locally. We propose a memory-efficient online updating procedure for fixed effects estimators in panel data. Since panel data includes two dimensions, expansion may occur in either: (1) new individuals with time observations or (2) new time periods for an existing individual. For each scenario, we demonstrate how to estimate regression coefficients and variance while ensuring memory efficiency.
+    </span>
+  </details>
+</div>
+
+
+
+
+
 <span style="font-weight: bold; color: gray;">Online Updating for Linear Panel Regressions</span>  <a href="https://drive.google.com/file/d/1RYYiOoaNpwb0QlAOAeb1EZ90yPcIShnK/view?usp=sharing">[slides]</a>  
-<a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a> and Joonho Hwang
-<details style="margin: 0; padding: 0; display: inline-block;">
-<summary style="margin: 0; padding: 0; display: inline;">
-  <span style="font-weight: bold; color: gray;">
-    <em>abstract</em>
-  </span>
-</summary>
+<a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a> and Joonho Hwang<details style="margin: 0; padding: 0; display: inline-block;"><summary style="margin: 0; padding: 0; display: inline;"><span style="font-weight: bold; color: gray;"><em>abstract</em></span></summary>
 <span style="font-size: 95%; margin-top: 10px; display: block; text-align: justify;">
   In this article, we address online estimation methods for widely used linear fixed effects models in panel data. Online estimation involves estimation procedures where data arrives sequentially, without requiring access to the historical dataset. Given the potential size of the dataset or data confidentiality constraints, researchers may be unable to store and access the entire dataset locally. We propose a memory-efficient online updating procedure for fixed effects estimators in panel data. Since panel data includes two dimensions, expansion may occur in either: (1) new individuals with time observations or (2) new time periods for an existing individual. For each scenario, we demonstrate how to estimate regression coefficients and variance while ensuring memory efficiency.
 </span>
