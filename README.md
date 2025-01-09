@@ -6,7 +6,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year Ph
 <span style="font-weight: bold; color: gray;">Online Updating for Linear Panel Regressions</span>  <a href="https://drive.google.com/file/d/1RYYiOoaNpwb0QlAOAeb1EZ90yPcIShnK/view?usp=sharing">[slides]</a>  
 <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a> and Joonho Hwang
 <details style="margin: 0; padding: 0;"> <!-- 여백 완전히 제거 -->
-<summary markdown='span'>
+<summary markdown='span' style="margin: 0; padding: 0;">
   <span style="font-weight: bold; color: gray;">
     abstract
   </span>
