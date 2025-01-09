@@ -7,8 +7,8 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year Ph
   <span style="font-weight: bold; color: gray;">Online Updating for Linear Panel Regressions</span>
   <a href="https://drive.google.com/file/d/1RYYiOoaNpwb0QlAOAeb1EZ90yPcIShnK/view?usp=sharing">[slides]</a><br>
   <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a> and Joonho Hwang<br>
-  <details style="margin: 0; padding: 0; display: block;">
-    <summary style="margin: 0; padding: 0; display: inline; cursor: pointer;">
+  <details>
+    <summary>
       <span style="font-weight: bold; color: gray; font-style: italic;">abstract</span>
     </summary>
     <span style="font-size: 95%; margin-top: 10px; display: block; text-align: justify;">
@@ -16,6 +16,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year Ph
     </span>
   </details>
 </div>
+
 
 
 <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
