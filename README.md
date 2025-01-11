@@ -12,7 +12,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year Ph
       <span style="font-weight: bold; color: gray;">abstract</span>
     </summary>
     <span style="font-size: 95%; margin-top: 10px; display: block; text-align: justify;">
-      In this paper, we develop online updating methods for linear panel regression models. Online updating refers to estimation and inference procedures designed for settings where data become available sequentially. In practice, the potential size of the dataset or data confidentiality constraints may preclude researchers from storing or accessing the entire dataset. We propose an online updating procedure for widely used linear regression models in panel data. Panel data involves two possible types of data expansions: (ⅰ) the arrival of new units, or (ⅱ) the arrival of additional time periods for existing units. We demonstrate procedures to update both regression coefficients and cluster-robust variance for each case.
+      In this paper, we develop online updating methods for linear panel regression models. Online updating refers to estimation and inference procedures designed for settings where data become available sequentially. In practice, the potential size of the dataset or data confidentiality constraints may preclude researchers from storing or accessing the entire dataset. We propose an online updating procedure for widely used linear regression models in panel data. Panel data involves two possible types of data expansions: (1) the arrival of new units, or (2) the arrival of additional time periods for existing units. We demonstrate procedures to update both regression coefficients and cluster-robust variance for each case.
     </span>
   </details>
 </div>
