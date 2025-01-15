@@ -37,6 +37,7 @@ Post-Exposure Outcomes</span><br>
 </div>
 
 <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
+
 <!--
 <div>
   <span style="font-weight: bold; color: gray;">Causal Inference via Matrix Completion with Group Heterogeneity</span><br>
