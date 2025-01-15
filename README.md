@@ -19,6 +19,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year Ph
   </details>
 </div>
 
+<div style="margin: 20px 0;"></div> <!-- 제목 사이 간격 -->
 
 ### Work in progress
 <div>
