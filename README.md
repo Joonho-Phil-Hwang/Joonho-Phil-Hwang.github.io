@@ -4,7 +4,7 @@
 
 My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year Phd candidate in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am interested in econometrics with a focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1D1kX0qi5IJsP2ikEBsCDgj1oTDCIpTzR/view?usp=sharing) for a copy of my CV.
 
-### Work in progress
+### Working papers
 <div>
   <span style="font-weight: bold; color: gray;">Online Updating for Linear Panel Regressions</span>
   <a href="https://drive.google.com/file/d/1RYYiOoaNpwb0QlAOAeb1EZ90yPcIShnK/view?usp=sharing">[slides]</a><br>
@@ -19,8 +19,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year Ph
   </details>
 </div>
 
-<div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
-
+### Work in progress
 <div>
   <span style="font-weight: bold; color: gray;">Synthetic Difference-in-Differences with Missing
 Post-Exposure Outcomes</span><br>
@@ -35,3 +34,17 @@ Post-Exposure Outcomes</span><br>
   </details>
 </div>
 
+<div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
+
+<div>
+  <span style="font-weight: bold; color: gray;">Causal Inference via Matrix Completion with Group Heterogeneity</span><br>
+  Joonho Hwang<br>
+  <details>
+    <summary>
+      <span style="font-weight: bold; color: gray;">abstract</span>
+    </summary>
+    <span style="font-size: 95%; margin-top: 10px; display: block; text-align: justify;">
+      tbd
+    </span>
+  </details>
+</div>
