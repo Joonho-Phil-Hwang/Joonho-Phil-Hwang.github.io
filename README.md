@@ -23,8 +23,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year Ph
 
 ### Work in progress
 <div>
-  <span style="font-weight: bold; color: gray;">Synthetic Difference-in-Differences with Missing
-Post-Exposure Outcomes</span><br>
+  <span style="font-weight: bold; color: gray;">Synthetic Difference-in-Differences with Unbalanced Panel Data</span><br>
   <a href="https://www.econ.uni-bonn.de/en/department/doctoral-students/chencheng-fang">Chencheng Fang</a> and Joonho Hwang<br>
   <details>
     <summary>
