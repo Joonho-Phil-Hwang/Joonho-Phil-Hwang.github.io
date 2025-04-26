@@ -4,8 +4,6 @@
 
 My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year PhD candidate in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am interested in econometrics with a focus on panel data, causal inference, and missing data problem. Click [here](https://drive.google.com/file/d/1bS-Kw1BNpTo8jqYJVT2mOtRLqVpP1Nim/view?usp=drivesdk) for a copy of my CV.
 
-Before starting my PhD, I completed my BA in Economics and BS in Mathematics from Chungnam National University. 
-
 ### Working papers
 <div>
   <span style="font-weight: bold; color: gray;">Online Updating for Linear Panel Regressions</span><br>
