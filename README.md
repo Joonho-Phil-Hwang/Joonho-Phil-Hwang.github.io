@@ -56,3 +56,8 @@ Post-Treatment Outcomes</span><br>
   </details>
 </div>
 -->
+
+</div> <!-- 마지막 연구 항목 닫는 div -->
+<div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;">
+  Last updated: July 6, 2025
+</div>
