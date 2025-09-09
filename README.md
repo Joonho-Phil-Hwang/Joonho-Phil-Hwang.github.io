@@ -1,8 +1,8 @@
 <title>Joonho (Phil) Hwang</title>
 
-### About me
+### Welcome!
 
-My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). I am interested in econometrics with a focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1bS-Kw1BNpTo8jqYJVT2mOtRLqVpP1Nim/view?usp=drivesdk) for a copy of my CV.
+My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in theoretical econometrics, with a particular focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1bS-Kw1BNpTo8jqYJVT2mOtRLqVpP1Nim/view?usp=drivesdk) for a copy of my CV.
 
 ### Working papers
 <div>
@@ -25,7 +25,8 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth year Ph
              style="width: 70%; max-width: 600px; border: 1px solid #ccc; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
       </div>
       <div style="margin-top: 10px;">
-        <span>presented at:</span> SNU Econometrics Workshop, SETA 2025, University of Sydney, KER International Conference 2025, SNU Workshop on Recent Advances in Econometrics
+        <span style="text-decoration: underline;">presented at:</span> 
+        SNU Econometrics Workshop, SETA 2025, University of Sydney, KER International Conference 2025, SNU Workshop on Recent Advances in Econometrics
       </div>
     </div>
   </details>
