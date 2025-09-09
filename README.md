@@ -69,5 +69,5 @@ Post-Treatment Outcomes</span><br>
 -->
 
 <div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;">
-  Last updated: August 17, 2025
+  Last updated: September 9, 2025
 </div>
