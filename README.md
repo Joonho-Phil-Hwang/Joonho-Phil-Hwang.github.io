@@ -2,7 +2,7 @@
 
 ### Welcome!
 
-My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1bS-Kw1BNpTo8jqYJVT2mOtRLqVpP1Nim/view?usp=drivesdk) for a copy of my CV. My email is <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a>.
+My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1LiqcOdGrh0N6HKI7YxrIXrfjHnkIKAwS/view?usp=sharing) for a copy of my CV. My email is <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a>.
 
 ### Working papers
 <div>
@@ -36,9 +36,9 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 
 ### Work in progress
 <div>
-  <span style="font-weight: bold; color: gray;">Synthetic Difference-in-Differences with Missing
-Post-Treatment Outcomes</span><br>
+  <span style="font-weight: bold; color: gray;">Revisiting the Weighting Scheme in Synthetic Difference-in-Differences</span><br>
   joint with <a href="https://www.econ.uni-bonn.de/en/department/doctoral-students/chencheng-fang">Chencheng Fang</a><br>
+  <!--
   <details>
     <summary>
       <span style="font-weight: bold; color: gray;">abstract</span>
@@ -49,6 +49,7 @@ Post-Treatment Outcomes</span><br>
     <span> presented at:</span> 3rd BCFM PhD conference (by coauthor)
     </span>
   </details>
+  -->
 </div>
 
 <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
@@ -69,5 +70,5 @@ Post-Treatment Outcomes</span><br>
 -->
 
 <div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;">
-  Last updated: September 9, 2025
+  Last updated: September 30, 2025
 </div>
