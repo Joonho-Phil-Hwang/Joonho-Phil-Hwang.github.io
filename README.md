@@ -2,7 +2,7 @@
 
 ### Welcome!
 
-My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1LiqcOdGrh0N6HKI7YxrIXrfjHnkIKAwS/view?usp=sharing) for a copy of my CV. My email is <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a>.
+My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1XJup-ITYEBFdmSa03X9ZxbdulQQxOb-A/view?usp=sharing) for a copy of my CV. My email is <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a>.
 
 ### Working papers
 <div>
@@ -70,5 +70,5 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 -->
 
 <div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;">
-  Last updated: September 30, 2025
+  Last updated: October 29, 2025
 </div>
