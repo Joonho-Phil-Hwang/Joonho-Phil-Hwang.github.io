@@ -52,7 +52,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
   -->
 </div>
 
-<div style="margin: 20px 0;"></div> <!-- 간격 조정 -->
+<div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
 <div>
   <span style="font-weight: bold; color: gray;">Dynamic Misspecification in Two-Way Fixed Effects Regression</span><br>
   <!--
@@ -68,5 +68,5 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 </div>
 
 <div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;">
-  Last updated: October 29, 2025
+  Last updated: November 12, 2025
 </div>
