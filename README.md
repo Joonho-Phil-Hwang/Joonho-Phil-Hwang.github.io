@@ -26,7 +26,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
       </div>
       <div style="margin-top: 10px;">
         <span style="text-decoration: underline;">presented at:</span> 
-        SNU Econometrics Workshop, SETA 2025, University of Sydney, KER International Conference 2025, SNU Workshop on Recent Advances in Econometrics
+        SNU Econometrics Workshop, SETA 2025, University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics
       </div>
     </div>
   </details>
