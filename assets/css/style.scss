@@ -60,12 +60,8 @@ a:focus {
 }
 
 /* =============================
-   헤더 description & View My GitHub Profile 숨기기
+   View My GitHub Profile 숨기기
    ============================= */
-header p:first-of-type {
-  display: none;  /* 사진 바로 밑 'website' 줄 */
-}
-
 header p.view {
   display: none;  /* 'View My GitHub Profile' 링크 줄 */
 }
@@ -180,5 +176,16 @@ body.theme-dark footer {
 }
 
 body.theme-dark details > summary {
+  color: #E5E7EB;
+}
+
+header p {
+  text-align: center;
+  margin-top: 0.6em;
+  margin-bottom: 0;
+  font-size: 0.95em;
+}
+
+body.theme-dark header p {
   color: #E5E7EB;
 }
