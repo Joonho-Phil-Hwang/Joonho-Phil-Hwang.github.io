@@ -22,8 +22,8 @@ a:focus {
 /* 논문 제목 색 (네이비) */
 .paper-title,
 .paper-title a {
-  color: navy;
-  font-weight: bold;
+  color: #333333;
+  font-weight: 600;
 }
 </style>
 
