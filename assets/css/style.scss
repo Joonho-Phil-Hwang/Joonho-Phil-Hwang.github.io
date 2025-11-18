@@ -189,3 +189,14 @@ header p {
 body.theme-dark header p {
   color: #E5E7EB;
 }
+
+/* Research interests 리스트 간격 조정 */
+ul.research-list {
+  margin-top: 0.2em;    /* 제목 바로 아래 간격 줄이기 */
+  margin-bottom: 0.6em;
+  padding-left: 1.1em;  /* 기본 (약 2em)보다 살짝 줄임 */
+}
+
+ul.research-list li {
+  margin: 0.1em 0;      /* 항목 간 위아래 간격도 얇게 */
+}
