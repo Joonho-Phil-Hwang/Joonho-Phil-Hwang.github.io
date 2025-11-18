@@ -48,3 +48,16 @@ header p:first-of-type {
 header p.view {
   display: none;
 }
+
+/* ----- details/summary 에서 기본 삼각형(▸) 숨기기 ----- */
+
+/* 크롬/사파리 계열 */
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* 파이어폭스 등 */
+details > summary {
+  list-style: none;
+  cursor: pointer;   /* 마우스 올리면 클릭 가능하다는 느낌 */
+}
