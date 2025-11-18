@@ -190,13 +190,17 @@ body.theme-dark header p {
   color: #E5E7EB;
 }
 
-/* Research interests 리스트 간격 조정 */
+/* Research interests 문장 + 리스트 간격 조정 */
+.research-lead {
+  margin-bottom: 0.2em;   /* 문장과 리스트 사이 간격 아주 작게 */
+}
+
 ul.research-list {
-  margin-top: 0.2em;    /* 제목 바로 아래 간격 줄이기 */
+  margin-top: 0;          /* 위쪽 여백 없애기 */
   margin-bottom: 0.6em;
-  padding-left: 1.1em;  /* 기본 (약 2em)보다 살짝 줄임 */
+  padding-left: 1.1em;    /* 왼쪽 들여쓰기만 살짝 유지 */
 }
 
 ul.research-list li {
-  margin: 0.1em 0;      /* 항목 간 위아래 간격도 얇게 */
+  margin: 0.1em 0;
 }
