@@ -27,7 +27,7 @@ body {
 header h1,
 header h1 a {
   color: #111111;      /* 라이트 모드에서 이름 = 거의 검정 */
-  font-weight: 700;
+  font-weight: 500;
 }
 
 /* 섹션 제목: ### Welcome!, ### Working papers, ### Work in progress */
@@ -203,6 +203,7 @@ body.theme-dark h6 {
 body.theme-dark header h1,
 body.theme-dark header h1 a {
   color: #F9FAFB;
+  font-weight: 400;   /* 라이트와 동일하게 가볍게 */
 }
 
 /* 일반 링크 색: 파란-민트 계열 */
