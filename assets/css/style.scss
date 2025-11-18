@@ -135,7 +135,7 @@ body.theme-light {
 }
 
 body.theme-dark {
-  background-color: #050816;
+  background-color: #001442;   /* 네이비 배경 */
   color: #E5E7EB;
 }
 
@@ -149,20 +149,20 @@ body.theme-dark h6 {
   color: #F4F4F5;
 }
 
-/* 다크 모드에서 초록 톤을 조금 더 밝게 (Olive Drab 계열) */
+/* 다크 모드 포인트 컬러: 팔레트의 연두색 #85C754 */
 body.theme-dark header h1,
 body.theme-dark header h1 a {
-  color: #6B8E23;           /* 메인 포인트 그린 */
+  color: #85C754;
 }
 
 body.theme-dark a,
 body.theme-dark a:visited {
-  color: #6B8E23;           /* 일반 링크 */
+  color: #85C754;
 }
 
 body.theme-dark a:hover,
 body.theme-dark a:focus {
-  color: #A4C639;           /* hover 시 더 밝은 올리브 */
+  color: #E5E464;      /* 팔레트의 마지막 색 (#E5E464)로 살짝 더 밝게 */
   text-decoration: underline;
 }
 
