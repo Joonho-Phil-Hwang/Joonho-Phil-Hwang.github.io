@@ -60,7 +60,17 @@
 
 ### Welcome!
 
-My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1XJup-ITYEBFdmSa03X9ZxbdulQQxOb-A/view?usp=sharing) for a copy of my CV. My email is <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a>.
+My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). <!--  My research interests are in econometrics, with a particular focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1XJup-ITYEBFdmSa03X9ZxbdulQQxOb-A/view?usp=sharing) for a copy of my CV. My email is <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a>. -->
+- CV: [Download PDF](https://drive.google.com/file/d/1XJup-ITYEBFdmSa03X9ZxbdulQQxOb-A/view?usp=sharing)
+- GitHub: [Joonho-Phil-Hwang](https://github.com/Joonho-Phil-Hwang)
+- Email: <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a>
+
+### Research interests
+
+Econometrics, with an emphasis on  
+- static and dynamic panel models  
+- causal inference and difference-in-differences  
+- high-dimensional or online updating methods for panel regressions
 
 ### Working papers
 <div style="counter-reset: paper-counter;">
@@ -124,5 +134,4 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 </div>
 
 <div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;">
-  Last updated: November 12, 2025
 </div>
