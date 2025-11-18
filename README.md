@@ -5,7 +5,7 @@
 .paper-title::before {
   counter-increment: paper-counter;          /* paper-counter 값을 1씩 증가 */
   content: "[" counter(paper-counter) "] ";  /* [1], [2] 처럼 출력 */
-  font-weight: 600;
+  font-weight: normal;   /* ← 이 줄만 바꿈 */
   margin-right: 0.25em;
 }
 </style>
