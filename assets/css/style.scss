@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";   // Minimal 테마 CSS 먼저 불러오기
+
+/* ===== 색상 팔레트 ===== */
+:root {
+  --accent-green: #02AC3F;   /* 사진에서 뽑은 초록색 */
+  --accent-green-dark: #028A33;
+  --text-dark: #333333;
+  --heading-dark: #222222;
+}
+
+/* 기본 텍스트 색 */
+body {
+  color: var(--text-dark);
+}
+
+/* 링크 색 (CV, 공동저자 링크 등) */
+a,
+a:visited {
+  color: var(--accent-green);
+}
+a:hover,
+a:focus {
+  color: var(--accent-green-dark);
+}
+
+/* 페이지 맨 위 이름 색 */
+header h1,
+header h1 a {
+  color: var(--accent-green);
+}
+
+/* 섹션 제목 (Working papers, Work in progress 등) */
+h2, h3 {
+  color: var(--heading-dark);
+}
+
+/* ===== 사진 아래 불필요한 것들 숨기기 ===== */
+
+/* 1) description 줄 (지금은 'website'가 보이는 자리) */
+header p:first-of-type {
+  display: none;
+}
+
+/* 2) 'View My GitHub Profile' 링크 */
+header p.view {
+  display: none;
+}
