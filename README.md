@@ -65,7 +65,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 
 ### Work in progress
 <div>
-  <span style="font-weight: bold; color: gray;">Revisiting the Weighting Scheme in Synthetic Difference-in-Differences</span><br>
+  <span class="paper-title">Revisiting the Weighting Scheme in Synthetic Difference-in-Differences</span><br>
   joint with <a href="https://www.econ.uni-bonn.de/en/department/doctoral-students/chencheng-fang">Chencheng Fang</a><br>
   <!--
   <details>
@@ -83,7 +83,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 
 <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
 <div>
-  <span style="font-weight: bold; color: gray;">Dynamic Misspecification in Extended Two-Way Fixed Effects Regression</span><br>
+  <span class="paper-title">Dynamic Misspecification in Extended Two-Way Fixed Effects Regression</span><br>
   <!--
   <details>
     <summary>
