@@ -134,13 +134,12 @@ body.theme-light {
   color: var(--text-dark);
 }
 
-/* 다크 테마 */
 body.theme-dark {
-  background-color: #050816;  /* 지금 쓰던 다크 배경 톤과 비슷하게 */
+  background-color: #050816;
   color: #E5E7EB;
 }
 
-/* 다크 모드에서 제목/링크/논문제목 등 색 조정 */
+/* 제목(섹션 헤더)은 거의 흰색 유지 */
 body.theme-dark h1,
 body.theme-dark h2,
 body.theme-dark h3,
@@ -150,19 +149,20 @@ body.theme-dark h6 {
   color: #F4F4F5;
 }
 
+/* 이름 / 링크 색을 Dark Olive Green 계열로 */
 body.theme-dark header h1,
 body.theme-dark header h1 a {
-  color: #4ADE80;  /* 초록 포인트 컬러의 밝은 버전 */
+  color: #556B2F;     /* Dark Olive Green */
 }
 
 body.theme-dark a,
 body.theme-dark a:visited {
-  color: #4ADE80;
+  color: #556B2F;     /* 일반 링크 */
 }
 
 body.theme-dark a:hover,
 body.theme-dark a:focus {
-  color: #BBF7D0;
+  color: #6F8A3C;     /* 살짝 더 밝은 올리브톤 (hover) */
   text-decoration: underline;
 }
 
