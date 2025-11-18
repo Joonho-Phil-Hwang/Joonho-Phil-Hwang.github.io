@@ -103,60 +103,6 @@ footer {
 }
 
 /* =============================
-   Dark mode (prefers-color-scheme)
-   ============================= */
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #050816;   /* 아주 짙은 남색/네이비 톤 배경 */
-    color: #E5E7EB;              /* 밝은 회색 텍스트 */
-  }
-
-  .wrapper {
-    background-color: transparent;
-  }
-
-  /* 제목들: 좀 더 밝게 */
-  h1, h2, h3, h4, h5, h6 {
-    color: #F4F4F5;
-  }
-
-  /* 논문 제목 색 (paper-title)도 살짝 더 밝게 */
-  .paper-title,
-  .paper-title a {
-    color: #E5E7EB;
-  }
-
-  /* 링크 색: 초록은 유지하되, 다크모드에서도 살짝 더 눈에 띄게 */
-  a,
-  a:visited {
-    color: #4ADE80;              /* 약간 더 밝은 연두빛 초록 */
-  }
-
-  a:hover,
-  a:focus {
-    color: #BBF7D0;              /* hover 시 더 밝게 */
-    text-decoration: underline;
-  }
-
-  /* header 아래 설명/프로필 링크는 이미 display:none 이라 색만 참고용 */
-  header h1,
-  header h1 a {
-    color: #4ADE80;
-  }
-
-  /* footer 텍스트: 너무 어둡지 않게 */
-  footer {
-    color: #9CA3AF;
-  }
-
-  /* Abstract 안쪽 같은 보조 텍스트(회색 계열) 대비 조금만 올리기 */
-  details > summary {
-    color: #E5E7EB;
-  }
-}
-
-/* =============================
    다크/라이트 모드 토글 버튼
    ============================= */
 
