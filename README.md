@@ -1,32 +1,3 @@
-<style>
-/* 메인 포인트 색 (이미지에서 뽑은 초록색) */
-:root {
-  --accent-green: #02AC3F;
-}
-
-/* 페이지 맨 위 이름 색 */
-h1,
-h1 a {
-  color: var(--accent-green);
-}
-
-/* 기본 링크 색 */
-a {
-  color: var(--accent-green);
-}
-a:hover,
-a:focus {
-  color: #028A33; /* 살짝 진한 초록, 원하면 다른 색으로 바꿔도 됨 */
-}
-
-/* 논문 제목 색 (네이비) */
-.paper-title,
-.paper-title a {
-  color: #333333;
-  font-weight: 600;
-}
-</style>
-
 <title>Joonho (Phil) Hwang</title>
 
 ### Welcome!
