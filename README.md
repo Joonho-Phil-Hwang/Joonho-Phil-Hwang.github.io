@@ -1,3 +1,32 @@
+<style>
+/* 메인 포인트 색 (이미지에서 뽑은 초록색) */
+:root {
+  --accent-green: #02AC3F;
+}
+
+/* 페이지 맨 위 이름 색 */
+h1,
+h1 a {
+  color: var(--accent-green);
+}
+
+/* 기본 링크 색 */
+a {
+  color: var(--accent-green);
+}
+a:hover,
+a:focus {
+  color: #028A33; /* 살짝 진한 초록, 원하면 다른 색으로 바꿔도 됨 */
+}
+
+/* 논문 제목 색 (네이비) */
+.paper-title,
+.paper-title a {
+  color: navy;
+  font-weight: bold;
+}
+</style>
+
 <title>Joonho (Phil) Hwang</title>
 
 ### Welcome!
@@ -6,7 +35,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 
 ### Working papers
 <div>
-  <span style="font-weight: bold; color: gray;">Online Updating for Linear Panel Regressions</span><br>
+  <span class="paper-title">Online Updating for Linear Panel Regressions</span><br>  
   joint with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br>
   <details>
     <summary>
