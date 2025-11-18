@@ -5,7 +5,7 @@
 My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1XJup-ITYEBFdmSa03X9ZxbdulQQxOb-A/view?usp=sharing) for a copy of my CV. My email is <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a>.
 
 ### Working papers
-<div>
+<div style="counter-reset: paper-counter;">
   <span class="paper-title">Online Updating for Linear Panel Regressions</span><br>  
   joint with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br>
   <details>
@@ -33,7 +33,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 <div style="margin: 20px 0;"></div> <!-- 제목 사이 간격 -->
 
 ### Work in progress
-<div>
+<div style="counter-reset: paper-counter;">
   <span class="paper-title">Revisiting the Weighting Scheme in Synthetic Difference-in-Differences</span><br>
   joint with <a href="https://www.econ.uni-bonn.de/en/department/doctoral-students/chencheng-fang">Chencheng Fang</a><br>
   <!--
