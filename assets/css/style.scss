@@ -155,3 +155,28 @@ footer {
     color: #E5E7EB;
   }
 }
+
+/* =============================
+   다크/라이트 모드 토글 버튼
+   ============================= */
+
+#theme-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1000;
+
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* 다크 모드에서 버튼 배경/테두리도 어울리게 */
+body.theme-dark #theme-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(15, 23, 42, 0.85);
+}
