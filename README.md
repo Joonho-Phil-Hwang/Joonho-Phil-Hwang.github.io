@@ -1,14 +1,62 @@
 <title>Joonho (Phil) Hwang</title>
 
 <style>
-/* 논문 제목 앞에 [1], [2], ... 붙이기 */
 .paper-title::before {
-  counter-increment: paper-counter;          /* paper-counter 값을 1씩 증가 */
-  content: "[" counter(paper-counter) "] ";  /* [1], [2] 처럼 출력 */
-  font-weight: normal;   /* ← 이 줄만 바꿈 */
+  counter-increment: paper-counter;
+  content: "[" counter(paper-counter) "] ";
+  font-weight: normal;
   margin-right: 0.25em;
 }
 </style>
+
+<!-- 다크/라이트 모드 토글 버튼 -->
+<button id="theme-toggle" type="button" aria-label="Toggle color mode">🌙</button>
+
+<script>
+(function() {
+  const storageKey = "color-theme";
+  const body = document.body;
+
+  function applyTheme(theme) {
+    body.classList.remove("theme-light", "theme-dark");
+    if (theme === "dark") {
+      body.classList.add("theme-dark");
+    } else {
+      body.classList.add("theme-light");
+    }
+    const btn = document.getElementById("theme-toggle");
+    if (btn) {
+      btn.textContent = theme === "dark" ? "☀️" : "🌙";
+    }
+  }
+
+  // 초기 테마: 저장된 값 있으면 사용, 없으면 시스템 설정에 맞춤
+  function initTheme() {
+    const saved = localStorage.getItem(storageKey);
+    if (saved === "light" || saved === "dark") {
+      applyTheme(saved);
+    } else {
+      const prefersDark = window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+      applyTheme(prefersDark ? "dark" : "light");
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    initTheme();
+
+    const btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+
+    btn.addEventListener("click", function() {
+      const isDark = body.classList.contains("theme-dark");
+      const nextTheme = isDark ? "light" : "dark";
+      applyTheme(nextTheme);
+      localStorage.setItem(storageKey, nextTheme);
+    });
+  });
+})();
+</script>
 
 ### Welcome!
 
