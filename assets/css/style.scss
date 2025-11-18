@@ -8,7 +8,7 @@
    ============================= */
 :root {
   --accent-green: #02AC3F;      /* 사진에서 뽑은 초록 */
-  --accent-green-dark: #028A33; /* hover용 조금 더 진한 초록 */
+  --accent-green-dark: #028A33; /* hover용 조금 진한 초록 */
   --text-dark: #333333;         /* 본문 텍스트 */
   --heading-dark: #2B2B2B;      /* 섹션 헤더(### 등) */
 }
@@ -17,13 +17,13 @@
    전체 폰트/본문 스타일
    ============================= */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Georgia", "Times New Roman", Times, serif;  /* academic 느낌의 serif */
   color: var(--text-dark);
   font-size: 16px;
   line-height: 1.6;
 }
 
-/* 페이지 맨 위 이름(큰 타이틀) */
+/* 페이지 맨 위 이름 */
 header h1,
 header h1 a {
   color: var(--accent-green);
@@ -33,7 +33,7 @@ header h1 a {
 /* 섹션 제목: ### Welcome!, ### Working papers, ### Work in progress 등 */
 h2,
 h3 {
-  color: var(--heading-dark);   /* 본문보다 살짝 더 어두운 회색 */
+  color: var(--heading-dark);
   font-family: "Georgia", "Times New Roman", Times, serif;
   letter-spacing: 0.02em;
   margin-top: 1.5em;
@@ -60,10 +60,10 @@ a:focus {
 }
 
 /* =============================
-   헤더 쪽 description & View My GitHub Profile 숨기기
+   헤더 description & View My GitHub Profile 숨기기
    ============================= */
 header p:first-of-type {
-  display: none;  /* 사진 밑 한 줄 설명 */
+  display: none;  /* 사진 바로 아래 한 줄(website 등) */
 }
 
 header p.view {
@@ -86,21 +86,20 @@ details > summary {
 }
 
 /* =============================
-   Footer (Last updated, Hosted on ...)
+   본문(section) 폭만 줄여서 가운데 정렬
+   ============================= */
+@media (min-width: 900px) {
+  section {
+    max-width: 720px;   /* 700~760 정도 사이에서 취향대로 조정 가능 */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* =============================
+   Footer
    ============================= */
 footer {
   font-size: 0.9em;
   color: #777777;
-}
-
-
-/* =============================
-   전체 레이아웃: 좌우 여백 넓히기
-   ============================= */
-
-/* 큰 화면에서만 적용 (모바일은 그대로 두기) */
-@media (min-width: 900px) {
-  .wrapper {
-    max-width: 720px;   /* 기본 800px보다 좁게 → 여백 증가 */
-  }
 }
