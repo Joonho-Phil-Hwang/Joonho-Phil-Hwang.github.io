@@ -259,3 +259,11 @@ ul.research-list {
 ul.research-list li {
   margin: 0.1em 0;
 }
+
+/* 프로필 사진 아래 description 중앙 정렬 */
+header p:not(.view) {
+  text-align: center;
+  margin-top: 0.6em;
+  margin-bottom: 0;
+  font-size: 0.95em;
+}
