@@ -1,63 +1,94 @@
 ---
 ---
 
-@import "{{ site.theme }}";   // Minimal 테마 CSS 먼저 불러오기
+@import "{{ site.theme }}";   // Minimal 테마 먼저 불러오기
 
-/* ===== 색상 팔레트 ===== */
+/* =============================
+   색상 팔레트
+   ============================= */
 :root {
-  --accent-green: #02AC3F;   /* 사진에서 뽑은 초록색 */
-  --accent-green-dark: #028A33;
-  --text-dark: #333333;
-  --heading-dark: #222222;
+  --accent-green: #02AC3F;      /* 사진에서 뽑은 초록 */
+  --accent-green-dark: #028A33; /* hover용 조금 더 진한 초록 */
+  --text-dark: #333333;         /* 본문 텍스트 */
+  --heading-dark: #2B2B2B;      /* 섹션 헤더(### 등) */
 }
 
-/* 기본 텍스트 색 */
+/* =============================
+   전체 폰트/본문 스타일
+   ============================= */
 body {
+  font-family: "Georgia", "Times New Roman", Times, serif;  /* 좀 더 academic 한 serif 계열 */
   color: var(--text-dark);
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-/* 링크 색 (CV, 공동저자 링크 등) */
-a,
-a:visited {
-  color: var(--accent-green);
-}
-a:hover,
-a:focus {
-  color: var(--accent-green-dark);
-}
-
-/* 페이지 맨 위 이름 색 */
+/* 페이지 맨 위 이름(큰 타이틀) */
 header h1,
 header h1 a {
   color: var(--accent-green);
+  font-weight: 700;
 }
 
-/* 섹션 제목 (Working papers, Work in progress 등) */
-h2, h3 {
+/* 섹션 제목: ### Welcome!, ### Working papers, ### Work in progress 등 */
+h2,
+h3 {
+  color: var(--heading-dark);   /* 본문보다 살짝 더 어두운 회색 */
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  letter-spacing: 0.02em;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+}
+
+h4, h5, h6 {
   color: var(--heading-dark);
 }
 
-/* ===== 사진 아래 불필요한 것들 숨기기 ===== */
+/* =============================
+   링크 스타일
+   ============================= */
+a,
+a:visited {
+  color: var(--accent-green);
+  text-decoration: none;
+}
 
-/* 1) description 줄 (지금은 'website'가 보이는 자리) */
+a:hover,
+a:focus {
+  color: var(--accent-green-dark);
+  text-decoration: underline;
+}
+
+/* =============================
+   헤더 쪽 description & View My GitHub Profile 숨기기
+   ============================= */
 header p:first-of-type {
-  display: none;
+  display: none;  /* 사진 밑 한 줄 설명 */
 }
 
-/* 2) 'View My GitHub Profile' 링크 */
 header p.view {
-  display: none;
+  display: none;  /* View My GitHub Profile 링크 */
 }
 
-/* ----- details/summary 에서 기본 삼각형(▸) 숨기기 ----- */
+/* =============================
+   Abstract 토글 (details/summary)
+   ============================= */
 
-/* 크롬/사파리 계열 */
+/* 브라우저가 자동으로 붙이는 ▸ 아이콘 숨기기 */
 details > summary::-webkit-details-marker {
   display: none;
 }
 
-/* 파이어폭스 등 */
 details > summary {
   list-style: none;
-  cursor: pointer;   /* 마우스 올리면 클릭 가능하다는 느낌 */
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* =============================
+   Footer (Last updated, Hosted on ...)
+   ============================= */
+footer {
+  font-size: 0.9em;
+  color: #777777;
 }
