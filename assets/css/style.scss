@@ -149,20 +149,20 @@ body.theme-dark h6 {
   color: #F4F4F5;
 }
 
-/* 이름 / 링크 색을 Dark Olive Green 계열로 */
+/* 다크 모드에서 초록 톤을 조금 더 밝게 (Olive Drab 계열) */
 body.theme-dark header h1,
 body.theme-dark header h1 a {
-  color: #556B2F;     /* Dark Olive Green */
+  color: #6B8E23;           /* 메인 포인트 그린 */
 }
 
 body.theme-dark a,
 body.theme-dark a:visited {
-  color: #556B2F;     /* 일반 링크 */
+  color: #6B8E23;           /* 일반 링크 */
 }
 
 body.theme-dark a:hover,
 body.theme-dark a:focus {
-  color: #6F8A3C;     /* 살짝 더 밝은 올리브톤 (hover) */
+  color: #A4C639;           /* hover 시 더 밝은 올리브 */
   text-decoration: underline;
 }
 
