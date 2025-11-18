@@ -76,11 +76,8 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-
 ### Research interests
 
 Econometrics, with an emphasis on
-
-<ul class="research-list">
-  <li>static and dynamic panel data models</li>
-  <li>causal inference</li>
-</ul>
+- panel data methods
+- causal inference
 
 
 ### Working papers
