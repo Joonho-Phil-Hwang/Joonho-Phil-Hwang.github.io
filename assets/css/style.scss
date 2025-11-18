@@ -244,21 +244,6 @@ body.theme-dark #theme-toggle {
   background-color: rgba(24, 24, 27, 0.9);
   color: #F9FAFB;
 }
-   
-/* Research interests 문장 + 리스트 간격 조정 */
-.research-lead {
-  margin-bottom: 0.2em;   /* 문장과 리스트 사이 간격 아주 작게 */
-}
-
-ul.research-list {
-  margin-top: 0;          /* 위쪽 여백 없애기 */
-  margin-bottom: 0.6em;
-  padding-left: 1.1em;    /* 왼쪽 들여쓰기만 살짝 유지 */
-}
-
-ul.research-list li {
-  margin: 0.1em 0;
-}
 
 /* 프로필 사진 아래 description 중앙 정렬 */
 header p:not(.view) {
