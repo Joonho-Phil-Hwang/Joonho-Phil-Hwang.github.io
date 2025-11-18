@@ -180,3 +180,59 @@ body.theme-dark #theme-toggle {
   border-color: rgba(255, 255, 255, 0.25);
   background-color: rgba(15, 23, 42, 0.85);
 }
+
+/* =============================
+   라이트/다크 테마 클래스
+   (토글 버튼에서 body에 theme-light / theme-dark 를 붙임)
+   ============================= */
+
+/* 라이트 테마 (기본값 보강용) */
+body.theme-light {
+  background-color: #fdfdfd;
+  color: var(--text-dark);
+}
+
+/* 다크 테마 */
+body.theme-dark {
+  background-color: #050816;  /* 지금 쓰던 다크 배경 톤과 비슷하게 */
+  color: #E5E7EB;
+}
+
+/* 다크 모드에서 제목/링크/논문제목 등 색 조정 */
+body.theme-dark h1,
+body.theme-dark h2,
+body.theme-dark h3,
+body.theme-dark h4,
+body.theme-dark h5,
+body.theme-dark h6 {
+  color: #F4F4F5;
+}
+
+body.theme-dark header h1,
+body.theme-dark header h1 a {
+  color: #4ADE80;  /* 초록 포인트 컬러의 밝은 버전 */
+}
+
+body.theme-dark a,
+body.theme-dark a:visited {
+  color: #4ADE80;
+}
+
+body.theme-dark a:hover,
+body.theme-dark a:focus {
+  color: #BBF7D0;
+  text-decoration: underline;
+}
+
+body.theme-dark .paper-title,
+body.theme-dark .paper-title a {
+  color: #E5E7EB;
+}
+
+body.theme-dark footer {
+  color: #9CA3AF;
+}
+
+body.theme-dark details > summary {
+  color: #E5E7EB;
+}
