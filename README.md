@@ -64,7 +64,9 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 
 ### Research interests
 
-Econometrics, with an emphasis on  
+<p class="research-lead">
+  Econometrics, with an emphasis on
+</p>
 <ul class="research-list">
   <li>static and dynamic panel data models</li>
   <li>causal inference and difference-in-differences</li>
