@@ -117,10 +117,11 @@ footer {
   cursor: pointer;
 }
 
-/* 다크 모드에서 버튼 배경/테두리도 어울리게 */
+/* 다크 모드에서 토글 버튼 스타일 */
 body.theme-dark #theme-toggle {
   border-color: rgba(255, 255, 255, 0.25);
-  background-color: rgba(15, 23, 42, 0.85);
+  background-color: rgba(24, 24, 27, 0.9);
+  color: #F9FAFB;
 }
 
 /* =============================
@@ -134,62 +135,74 @@ body.theme-light {
   color: var(--text-dark);
 }
 
+/* 전체 배경 + 기본 텍스트 */
 body.theme-dark {
-  background-color: #001442;   /* 네이비 배경 */
-  color: #E5E7EB;
+  background-color: #18181b;   /* 아주 짙은 다크 그레이 */
+  color: #E5E7EB;              /* 밝은 회색 텍스트 */
 }
 
-/* 제목(섹션 헤더)은 거의 흰색 유지 */
+/* wrapper는 투명하게 (여백 느낌 유지) */
+body.theme-dark .wrapper {
+  background-color: transparent;
+}
+
+/* 섹션 제목들 (Welcome, Research interests, Working papers 등) */
 body.theme-dark h1,
 body.theme-dark h2,
 body.theme-dark h3,
 body.theme-dark h4,
 body.theme-dark h5,
 body.theme-dark h6 {
-  color: #F4F4F5;
+  color: #F9FAFB;              /* 거의 흰색 */
 }
 
-/* 다크 모드 포인트 컬러: 팔레트의 연두색 #85C754 */
+/* 이름(맨 위 큰 타이틀)만 살짝 더 밝게 강조 */
 body.theme-dark header h1,
 body.theme-dark header h1 a {
-  color: #85C754;
+  color: #F9FAFB;
 }
 
+/* 일반 링크 색: 파란-민트 계열 */
 body.theme-dark a,
 body.theme-dark a:visited {
-  color: #85C754;
+  color: #38BDF8;              /* 밝은 시안/블루 */
 }
 
+/* hover 시 더 밝게 */
 body.theme-dark a:hover,
 body.theme-dark a:focus {
-  color: #E5E464;      /* 팔레트의 마지막 색 (#E5E464)로 살짝 더 밝게 */
+  color: #7DD3FC;
   text-decoration: underline;
 }
 
+/* 논문 제목 (paper-title)도 본문 글자랑 톤 맞추기 */
 body.theme-dark .paper-title,
 body.theme-dark .paper-title a {
   color: #E5E7EB;
 }
 
-body.theme-dark footer {
-  color: #9CA3AF;
-}
-
+/* Abstract 토글 summary 색 */
 body.theme-dark details > summary {
   color: #E5E7EB;
 }
 
-header p {
-  text-align: center;
-  margin-top: 0.6em;
-  margin-bottom: 0;
-  font-size: 0.95em;
-}
-
+/* 사진 밑 CV / GitHub / Email 텍스트 */
 body.theme-dark header p {
   color: #E5E7EB;
 }
 
+/* Footer */
+body.theme-dark footer {
+  color: #9CA3AF;
+}
+
+/* 다크 모드에서 토글 버튼 스타일 */
+body.theme-dark #theme-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(24, 24, 27, 0.9);
+  color: #F9FAFB;
+}
+   
 /* Research interests 문장 + 리스트 간격 조정 */
 .research-lead {
   margin-bottom: 0.2em;   /* 문장과 리스트 사이 간격 아주 작게 */
