@@ -1,23 +1,23 @@
 ---
 ---
 
-@import "{{ site.theme }}";   // Minimal 테마 먼저 불러오기
+@import "{{ site.theme }}";   // Minimal 테마 CSS 먼저 불러오기
 
 /* =============================
    색상 팔레트
    ============================= */
 :root {
-  --accent-green: #02AC3F;      /* 사진에서 뽑은 초록 */
-  --accent-green-dark: #028A33; /* hover용 조금 진한 초록 */
+  --accent-green: #02AC3F;      /* 포인트 초록 */
+  --accent-green-dark: #028A33; /* hover용 진한 초록 */
   --text-dark: #333333;         /* 본문 텍스트 */
   --heading-dark: #2B2B2B;      /* 섹션 헤더(### 등) */
 }
 
 /* =============================
-   전체 폰트/본문 스타일
+   전체 폰트 / 본문 스타일
    ============================= */
 body {
-  font-family: "Georgia", "Times New Roman", Times, serif;  /* academic 느낌의 serif */
+  font-family: "Georgia", "Times New Roman", Times, serif;  /* 조금 더 academic 한 느낌 */
   color: var(--text-dark);
   font-size: 16px;
   line-height: 1.6;
@@ -30,7 +30,7 @@ header h1 a {
   font-weight: 700;
 }
 
-/* 섹션 제목: ### Welcome!, ### Working papers, ### Work in progress 등 */
+/* 섹션 제목: ### Welcome!, ### Working papers, ### Work in progress */
 h2,
 h3 {
   color: var(--heading-dark);
@@ -63,11 +63,11 @@ a:focus {
    헤더 description & View My GitHub Profile 숨기기
    ============================= */
 header p:first-of-type {
-  display: none;  /* 사진 바로 아래 한 줄(website 등) */
+  display: none;  /* 사진 바로 밑 'website' 줄 */
 }
 
 header p.view {
-  display: none;  /* View My GitHub Profile 링크 */
+  display: none;  /* 'View My GitHub Profile' 링크 줄 */
 }
 
 /* =============================
@@ -86,13 +86,11 @@ details > summary {
 }
 
 /* =============================
-   본문(section) 폭만 줄여서 가운데 정렬
+   본문 폭 조정: 너무 넓지 않게, 그래도 제목은 많이 안 잘리게
    ============================= */
 @media (min-width: 900px) {
-  section {
-    max-width: 720px;   /* 700~760 정도 사이에서 취향대로 조정 가능 */
-    margin-left: auto;
-    margin-right: auto;
+  .wrapper {
+    max-width: 880px;  /* 기본(800px)보다 조금 넓게 → 좌우 여백 적당 + 긴 제목 한 줄 가능성 ↑ */
   }
 }
 
