@@ -10,7 +10,7 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
   joint with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br>
   <details>
     <summary>
-      <span style="font-weight: bold; color: gray;">abstract</span>
+      <summary>[Abstract]</summary>
     </summary>
     <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
       <span>
