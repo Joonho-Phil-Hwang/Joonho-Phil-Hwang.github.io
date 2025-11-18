@@ -1,6 +1,15 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    // 1) 탭 제목은 이름만 보이게
     document.title = "Joonho (Phil) Hwang";
+
+    // 2) 헤더 h1 안의 링크를 제거하고 순수 텍스트로 바꾸기
+    const headerLink = document.querySelector("header h1 a");
+    if (headerLink && headerLink.parentElement) {
+      const text = headerLink.textContent;
+      const h1 = headerLink.parentElement;
+      h1.textContent = text;   // <h1><a>...</a></h1>  →  <h1>...</h1>
+    }
   });
 </script>
 
