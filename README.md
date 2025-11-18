@@ -1,4 +1,8 @@
-<title>Joonho (Phil) Hwang</title>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.title = "Joonho (Phil) Hwang";
+  });
+</script>
 
 <style>
 .paper-title::before {
