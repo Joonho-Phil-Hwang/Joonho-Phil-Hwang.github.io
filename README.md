@@ -1,5 +1,15 @@
 <title>Joonho (Phil) Hwang</title>
 
+<style>
+/* 논문 제목 앞에 [1], [2], ... 붙이기 */
+.paper-title::before {
+  counter-increment: paper-counter;          /* paper-counter 값을 1씩 증가 */
+  content: "[" counter(paper-counter) "] ";  /* [1], [2] 처럼 출력 */
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+</style>
+
 ### Welcome!
 
 My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on panel data and causal inference. Click [here](https://drive.google.com/file/d/1XJup-ITYEBFdmSa03X9ZxbdulQQxOb-A/view?usp=sharing) for a copy of my CV. My email is <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a>.
