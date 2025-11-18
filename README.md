@@ -8,7 +8,6 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 <div>
   <span style="font-weight: bold; color: gray;">Online Updating for Linear Panel Regressions</span><br>
   joint with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br>
-  Presentation at SNU Econometrics Workshop, SETA 2025, University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics
   <details>
     <summary>
       <span style="font-weight: bold; color: gray;">abstract</span>
