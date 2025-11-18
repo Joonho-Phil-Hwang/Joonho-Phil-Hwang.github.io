@@ -70,7 +70,6 @@ My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year Ph
 <ul class="research-list">
   <li>static and dynamic panel data models</li>
   <li>causal inference and difference-in-differences</li>
-  <li>machine learning methods for panel regressions</li>
 </ul>
 
 
