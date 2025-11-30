@@ -262,7 +262,9 @@ header p:not(.view) {
 
 /* 기본 details/summary 세팅 */
 details {
+  display: inline-block;  /* 버튼들을 가로로 배치 */
   margin-top: 0.35em;
+  margin-right: 8px;      /* 버튼 사이 간격 */
 }
 
 details > summary {
