@@ -119,27 +119,26 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-
       <p>
         <strong>Big picture.</strong>
         Many panel datasets grow over time as new units or new time periods are added.
-        Re-estimating fixed-effects regressions from scratch can be slow and memory-intensive,
-        especially when the raw micro data cannot be permanently stored. This paper develops
+        Re-estimating fixed effects regressions from scratch can be slow and memory-intensive,
+        especially when the raw microdata cannot be permanently stored. This paper develops
         <em>online updating</em> methods for linear panel regressions that update the estimator
-        sequentially using only low-dimensional sufficient statistics.
+        sequentially using only low-dimensional summary statistics.
       </p>
       <p>
         <strong>Method.</strong>
-        We study static and dynamic TWFE models and other linear panel regressions with
-        unbalanced panels and many regressors. We derive closed-form updating formulas for
-        coefficients and robust variances when (i) new units arrive or (ii) additional time
+        We study static fixed effects models and other linear panel regressions with
+        unbalanced panels. We derive closed-form updating formulas for
+        coefficients and cluster-robust variances when (i) new units arrive or (ii) additional time
         periods are appended for existing units. For TWFE with many time dummies, we adapt
         the incremental SVD algorithm of Brand (2006) to maintain an economy SVD of the
-        normal matrix and recover the updated coefficients without directly inverting
-        \(\dot Z'\dot Z\).
+        normal matrix and recover the updated coefficients without direct inversion.
       </p>
       <p>
         <strong>Findings.</strong>
-        In large simulated panels, the online SVD-based estimator matches the batch TWFE
+        In large simulated panels, the online SVD-based estimator matches the batch fixed effects
         estimator (from <code>plm</code>) up to machine precision, while using orders of
         magnitude less memory and much smaller per-unit update time. This makes recursive,
-        numerically stable TWFE estimation feasible even when the full panel cannot be
+        numerically stable fixed effects estimation feasible even when the full panel cannot be
         stored.
       </p>
     </div>
