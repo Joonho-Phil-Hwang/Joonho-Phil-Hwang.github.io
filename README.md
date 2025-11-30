@@ -105,7 +105,7 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-
 <div style="margin: 20px 0;"></div> <!-- 제목 사이 간격 -->
 
 ### Work in progress
-<div style="counter-reset: paper-counter;">
+<!--<div style="counter-reset: paper-counter;">
   <span class="paper-title">Revisiting the Weighting Scheme in Synthetic Difference-in-Differences</span><br>
   joint with <a href="https://www.econ.uni-bonn.de/en/department/doctoral-students/chencheng-fang">Chencheng Fang</a><br>
   <!--
@@ -120,21 +120,16 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-
     </span>
   </details>
   -->
-</div>
 
 <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
 <div>
   <span class="paper-title">Dynamic Misspecification in Extended Two-Way Fixed Effects Regression</span><br>
-  <!--
   <details>
-    <summary>
-      <span style="font-weight: bold; color: gray;">abstract</span>
-    </summary>
-    <span style="font-size: 95%; margin-top: 10px; display: block; text-align: justify;">
-      tbd
-    </span>
-  </details>
-  -->
+  <summary><span class="abs-pill">Abstract</span></summary>
+  <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
+      <span>
+        It is often unclear for applied researchers whether they should include lagged outcomes as regressors. When the outcome of interest is dynamically persistent but lagged outcomes are omitted, the regression model is misspecified and the resulting estimates can be biased. Following Angrist & Pischke (2009), many applied researchers rely on a so-called bracketing relationship, treating specifications with and without lagged outcomes as forming an informal robustness check on the magnitude of the causal effect. In this paper, we first show that this practical relationship breaks down in modern staggered two-way fixed effects (TWFE) settings. Instead, we propose a new method for estimating staggered TWFE models that explicitly accounts for the dynamic evolution of the outcome.
+  </div>
 </div>
 
 <div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;">
