@@ -164,7 +164,7 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-
     </span>
   </details>
   -->
-
+<div style="counter-reset: paper-counter;">
 <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
 <div>
   <span class="paper-title">Dynamic Misspecification in Extended Two-Way Fixed Effects Regression</span><br>
