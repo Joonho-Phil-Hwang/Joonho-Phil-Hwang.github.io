@@ -112,11 +112,10 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-
     </div>
   </details>
 
-<!-- 2. SUMMARY 버튼 -->
-  <details>
-    <summary><span class="abs-pill">Summary</span></summary>
-    <div class="summary-section"
-         style="font-size: 95%; margin-top: 10px; text-align: justify; color: #111111;">
+  <!-- 2. SUMMARY 버튼 -->
+  <details class="summary-section">
+    <summary><span class="abs-pill">SUMMARY</span></summary>
+    <div class="summary-body">
       <p>
         <strong>Big picture.</strong>
         Many panel datasets grow over time as new units or new time periods are added.
@@ -131,7 +130,7 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-
         unbalanced panels. We derive closed-form updating formulas for
         coefficients and cluster-robust variances when (i) new units arrive or (ii) additional time
         periods are appended for existing units. For TWFE with many time dummies, we adapt
-        the incremental SVD algorithm of Brand (2006) to maintain an economy SVD of the
+        the incremental SVD algorithm of Brand (1999, 2006) to maintain an economy SVD of the
         normal matrix and recover the updated coefficients without direct inversion.
       </p>
       <p>
