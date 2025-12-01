@@ -315,24 +315,18 @@ body.theme-dark details[open] .abs-pill {
 }
 
 
-/* SUMMARY 섹션 기본 (라이트 모드) */
-.summary-section {
-  color: #222;
-}
-
-/* 다크 모드일 때 SUMMARY 텍스트를 밝게 */
+/* SUMMARY: 다크 모드에서만 색상 덮어쓰기 */
 @media (prefers-color-scheme: dark) {
   .summary-section,
   .summary-section p,
   .summary-section strong,
   .summary-section em,
   .summary-section code {
-    color: #f5f5f5 !important;
+    color: #f5f5f5 !important;   /* 전체 텍스트를 밝게 */
   }
 
-  /* Big picture / Method / Findings 더 강조 */
   .summary-section strong {
     font-weight: 700;
-    color: #ffffff !important;
+    color: #ffffff !important;   /* Big picture / Method / Findings 더 강조 */
   }
 }
