@@ -112,11 +112,11 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-
     </div>
   </details>
 
-  <!-- 2. SUMMARY 버튼 -->
+<!-- 2. SUMMARY 버튼 -->
   <details>
     <summary><span class="abs-pill">Summary</span></summary>
     <div class="summary-section"
-         style="font-size: 95%; margin-top: 10px; text-align: justify;">
+         style="font-size: 95%; margin-top: 10px; text-align: justify; color: #111111;">
       <p>
         <strong>Big picture.</strong>
         Many panel datasets grow over time as new units or new time periods are added.
