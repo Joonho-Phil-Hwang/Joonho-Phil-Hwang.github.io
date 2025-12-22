@@ -105,11 +105,38 @@ details > summary {
 }
 
 /* =============================
-   본문 폭 조정: 너무 넓지 않게, 그래도 제목은 많이 안 잘리게
+   레이아웃 폭 확장 (파란 영역까지 넓히기)
+   - 기존: wrapper max-width 880px
+   - 수정: 화면에서 더 넓게 사용 + header/section 폭 재조정
    ============================= */
 @media (min-width: 900px) {
   .wrapper {
-    max-width: 880px;  /* 기본(800px)보다 조금 넓게 → 좌우 여백 적당 + 긴 제목 한 줄 가능성 ↑ */
+    width: min(1200px, 92vw);  /* 전체 컨테이너를 더 넓게 */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;           /* 양 옆 살짝 여백 */
+  }
+
+  /* 왼쪽 프로필 영역(사진/이름/이메일) 폭 */
+  header {
+    width: 320px;              /* 필요하면 300~360px 사이로 조절 */
+  }
+
+  /* 오른쪽 본문 영역 폭 */
+  section {
+    width: calc(100% - 360px); /* header(320) + 간격(약 40) */
+  }
+}
+
+/* 더 작은 화면에서는 기존처럼 1열(모바일 레이아웃) */
+@media (max-width: 899px) {
+  .wrapper {
+    width: 92vw;
+    max-width: none;
+  }
+  header,
+  section {
+    width: auto;
   }
 }
 
@@ -335,5 +362,3 @@ body.theme-dark details[open] .abs-pill {
   background-color: #0F172A;
   color: #E0F2FE;
 }
-
-
