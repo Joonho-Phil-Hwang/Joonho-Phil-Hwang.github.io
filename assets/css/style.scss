@@ -106,7 +106,7 @@ details > summary {
 
 /* =============================
    레이아웃 폭 확장 (파란 영역까지 넓히기)
-   + 왼쪽(프로필)과 오른쪽(본문) 사이 간격(gap) 늘리기
+   + header(왼쪽)와 section(오른쪽) 사이 간격만 살짝 늘리기
    ============================= */
 @media (min-width: 900px) {
   .wrapper {
@@ -114,37 +114,37 @@ details > summary {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;
-
-    /* ✅ 핵심: float 대신 flex로 바꿔서 간격을 확실히 벌림 */
-    display: flex;
-    align-items: flex-start;
-    gap: 72px; /* ← 여기 숫자만 키우면 빨간 영역이 더 벌어짐 (예: 84px) */
   }
 
+  /* 왼쪽 프로필(사이드바) 폭 */
   header {
-    flex: 0 0 320px;  /* 왼쪽 프로필 폭 */
-    width: auto;
+    width: 320px;               /* 필요하면 300~360px로 조절 */
   }
 
+  /* 사진이 폭을 뚫고 커지는 것 방지 */
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 오른쪽 본문 폭: (전체 - header - gap) */
   section {
-    flex: 1 1 auto;  /* 오른쪽 본문이 남는 폭을 다 사용 */
-    width: auto;
-    float: none;      /* 테마의 float 무력화 */
+    float: right;               /* Minimal 테마 기본 동작 유지 */
+    width: calc(100% - 320px - 90px);
+    /*                         ↑ gap(간격) = 90px (원하면 110px 등으로 키워) */
   }
 }
 
-/* 더 작은 화면에서는 기존처럼 1열(모바일 레이아웃) */
+/* 모바일에서는 그대로 1열 */
 @media (max-width: 899px) {
   .wrapper {
     width: 92vw;
     max-width: none;
-
-    display: block;   /* 모바일에서는 flex 해제 */
   }
   header,
   section {
-    width: auto;
     float: none;
+    width: auto;
   }
 }
 
