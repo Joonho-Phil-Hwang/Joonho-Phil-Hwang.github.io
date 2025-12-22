@@ -106,25 +106,30 @@ details > summary {
 
 /* =============================
    레이아웃 폭 확장 (파란 영역까지 넓히기)
-   - 기존: wrapper max-width 880px
-   - 수정: 화면에서 더 넓게 사용 + header/section 폭 재조정
+   + 왼쪽(프로필)과 오른쪽(본문) 사이 간격(gap) 늘리기
    ============================= */
 @media (min-width: 900px) {
   .wrapper {
-    width: min(1200px, 92vw);  /* 전체 컨테이너를 더 넓게 */
+    width: min(1200px, 92vw);
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 24px;           /* 양 옆 살짝 여백 */
+    padding: 0 24px;
+
+    /* ✅ 핵심: float 대신 flex로 바꿔서 간격을 확실히 벌림 */
+    display: flex;
+    align-items: flex-start;
+    gap: 72px; /* ← 여기 숫자만 키우면 빨간 영역이 더 벌어짐 (예: 84px) */
   }
 
-  /* 왼쪽 프로필 영역(사진/이름/이메일) 폭 */
   header {
-    width: 320px;              /* 필요하면 300~360px 사이로 조절 */
+    flex: 0 0 320px;  /* 왼쪽 프로필 폭 */
+    width: auto;
   }
 
-  /* 오른쪽 본문 영역 폭 */
   section {
-    width: calc(100% - 360px); /* header(320) + 간격(약 40) */
+    flex: 1 1 auto;  /* 오른쪽 본문이 남는 폭을 다 사용 */
+    width: auto;
+    float: none;      /* 테마의 float 무력화 */
   }
 }
 
@@ -133,10 +138,13 @@ details > summary {
   .wrapper {
     width: 92vw;
     max-width: none;
+
+    display: block;   /* 모바일에서는 flex 해제 */
   }
   header,
   section {
     width: auto;
+    float: none;
   }
 }
 
