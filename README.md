@@ -1,6 +1,6 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    document.title = "Joonho (Phil) Hwang";
+    document.title = "Joonho Phil Hwang";
 
     const headerLink = document.querySelector("header h1 a");
     if (headerLink && headerLink.parentElement) {
