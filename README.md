@@ -1,9 +1,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    // 1) 탭 제목은 이름만 보이게
     document.title = "Joonho (Phil) Hwang";
 
-    // 2) 헤더 h1 안의 링크를 제거하고 순수 텍스트로 바꾸기
     const headerLink = document.querySelector("header h1 a");
     if (headerLink && headerLink.parentElement) {
       const text = headerLink.textContent;
@@ -22,7 +20,6 @@
 }
 </style>
 
-<!-- 다크/라이트 모드 토글 버튼 -->
 <button id="theme-toggle" type="button" aria-label="Toggle color mode">🌙</button>
 
 <script>
@@ -43,7 +40,6 @@
     }
   }
 
-  // 초기 테마: 저장된 값 있으면 사용, 없으면 시스템 설정에 맞춤
   function initTheme() {
     const saved = localStorage.getItem(storageKey);
     if (saved === "light" || saved === "dark") {
@@ -71,7 +67,7 @@
 })();
 </script>
 
-Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on
+Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on
 - panel data models
 - causal inference
 
