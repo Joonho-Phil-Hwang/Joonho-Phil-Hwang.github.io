@@ -170,7 +170,6 @@ Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fourth-ye
       <span>
         Applied researchers often face a dilemma regarding whether to include lagged dependent variables. When the outcome exhibits state dependence but lagged terms are omitted, standard estimates can be biased. Following Angrist and Pischke (2009), many rely on a ``bracketing relationship'', treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic breaks down in staggered two-way fixed effects settings. We propose a estimation strategy that explicitly accounts for the dynamic evolution of the outcome. By rigorously disentangling persistence from instantaneous treatment effects, our method ensures that intrinsic outcome dynamics are not mistaken for causal policy impacts.
       </span>
-  </div>
 </div>
 
 <div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;">
