@@ -163,7 +163,7 @@ Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fourth-ye
 <div style="counter-reset: paper-counter;">
 <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
 <div>
-  <span class="paper-title">Disentangling Persistence from Treatment Effects in Staggered Event Studies</span><br>
+  <span class="paper-title">Disentangling Persistence from Treatment Effects in Staggered Two-Way Fixed Effects Model</span><br>
   <details>
   <summary><span class="abs-pill">ABS</span></summary>
   <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
