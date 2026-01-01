@@ -505,3 +505,14 @@ body.theme-dark #theme-toggle {
   border-color: rgba(255,255,255,0.25) !important;
   color: #ffffff !important;
 }
+
+/* Remove dark "card" background in the center on dark mode */
+body.theme-dark .wrapper {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+body.theme-dark .wrapper {
+  padding: 24px 18px !important;  /* 너가 원래 쓰던 값으로 */
+}
