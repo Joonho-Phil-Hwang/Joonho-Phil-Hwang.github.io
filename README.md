@@ -79,7 +79,7 @@ Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fourth-ye
 
   <!-- 1. ABSTRACT 버튼 -->
   <details>
-    <summary><span class="abs-pill">Abstract</span></summary>
+    <summary><span class="abs-pill">ABS</span></summary>
     <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
       <span>
         In this paper, we develop online updating methods for linear panel regression models.
@@ -110,7 +110,7 @@ Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fourth-ye
 
   <!-- 2. SUMMARY 버튼 -->
   <details class="summary-section">
-    <summary><span class="abs-pill">SUMMARY</span></summary>
+    <summary><span class="abs-pill">SUM</span></summary>
     <div class="summary-body">
       <p>
         <strong>Big picture.</strong>
@@ -165,7 +165,7 @@ Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fourth-ye
 <div>
   <span class="paper-title">Disentangling Persistence from Treatment Effects in Staggered Event Studies</span><br>
   <details>
-  <summary><span class="abs-pill">Abstract</span></summary>
+  <summary><span class="abs-pill">ABS</span></summary>
   <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
       <span>
         Applied researchers often face a dilemma regarding whether to include lagged dependent variables. When the outcome exhibits state dependence but lagged terms are omitted, standard estimates can be biased. Following Angrist and Pischke (2009), many rely on a ``bracketing relationship'', treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic breaks down in staggered two-way fixed effects settings. We propose a estimation strategy that explicitly accounts for the dynamic evolution of the outcome. By rigorously disentangling persistence from instantaneous treatment effects, our method ensures that intrinsic outcome dynamics are not mistaken for causal policy impacts.
