@@ -440,3 +440,68 @@ body.theme-dark .summary-section .summary-body strong {
   padding: 0.05em 0.25em;
   border-radius: 6px;
 }
+
+/* =============================
+   Gray Dark Mode (like the example site)
+   ============================= */
+
+body.theme-dark {
+  background-color: #3f3f3f !important;  /* 메인 배경(회색) */
+  color: #f1f1f1 !important;             /* 기본 글자 */
+}
+
+/* 본문 컨테이너(중앙 영역)는 살짝 더 어둡게 */
+body.theme-dark .wrapper {
+  background-color: #2f2f2f !important;
+  border-radius: 14px;
+  padding: 28px 22px;                    /* wrapper 패딩을 쓰고 싶으면 */
+}
+
+/* 제목 */
+body.theme-dark h1,
+body.theme-dark h2,
+body.theme-dark h3,
+body.theme-dark h4,
+body.theme-dark h5,
+body.theme-dark h6 {
+  color: #ffffff !important;
+}
+
+/* 본문/리스트 */
+body.theme-dark p,
+body.theme-dark li,
+body.theme-dark span,
+body.theme-dark div {
+  color: #f1f1f1;
+}
+
+/* 링크(너 현재 톤 유지: 시안 계열) */
+body.theme-dark a,
+body.theme-dark a:visited {
+  color: #7dd3fc !important;
+}
+
+body.theme-dark a:hover,
+body.theme-dark a:focus {
+  color: #bae6fd !important;
+}
+
+/* 버튼 pill(ABS/SUM 등) */
+body.theme-dark .abs-pill {
+  border-color: rgba(255,255,255,0.25) !important;
+  color: #f1f1f1 !important;
+  background-color: rgba(255,255,255,0.06) !important;
+}
+
+body.theme-dark details[open] .abs-pill {
+  border-color: #7dd3fc !important;
+  background-color: rgba(125,211,252,0.14) !important;
+  color: #e0f2fe !important;
+}
+
+/* 토글 버튼도 회색 배경에 맞추기 */
+body.theme-dark #theme-toggle {
+  background-color: rgba(47,47,47,0.95) !important;
+  border-color: rgba(255,255,255,0.25) !important;
+  color: #ffffff !important;
+}
