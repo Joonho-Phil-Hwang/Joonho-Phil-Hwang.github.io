@@ -418,3 +418,25 @@ header img {
 }
 
 footer { display: none !important; }
+
+/* =====================================
+   Fix SUMMARY readability in dark mode
+   ===================================== */
+
+/* SUMMARY 본문 텍스트 색 고정 */
+body.theme-dark .summary-section .summary-body {
+  color: #E5E7EB !important;     /* 다크모드 본문과 동일 */
+}
+
+/* Big picture / Method / Findings 라벨(굵은 글씨) 더 밝게 + 대비 */
+body.theme-dark .summary-section .summary-body strong {
+  color: #F9FAFB !important;     /* 거의 흰색 */
+  font-weight: 700 !important;
+}
+
+/* (선택) 라벨이 더 눈에 띄게 살짝 하이라이트 */
+body.theme-dark .summary-section .summary-body strong {
+  background: rgba(255,255,255,0.06);
+  padding: 0.05em 0.25em;
+  border-radius: 6px;
+}
