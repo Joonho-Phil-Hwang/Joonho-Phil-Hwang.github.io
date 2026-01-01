@@ -370,3 +370,31 @@ body.theme-dark details[open] .abs-pill {
   background-color: #0F172A;
   color: #E0F2FE;
 }
+
+/* --- Force single-column layout on desktop (like mobile) --- */
+.wrapper {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 18px;
+}
+
+/* minimal theme style: header floats left and is fixed on desktop -> turn it off */
+header {
+  float: none !important;
+  position: static !important;
+  width: auto !important;
+  text-align: center;
+  margin: 0 0 18px 0;
+}
+
+section {
+  float: none !important;
+  width: auto !important;
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
