@@ -165,7 +165,7 @@ Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fourth-ye
   <div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;"></div>
   </div>
 
-  <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
+  <div style="margin: 5px 0;"></div> <!-- 간격 조정 -->
 
   <!-- Paper 2 -->
   <div>
