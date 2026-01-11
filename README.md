@@ -145,46 +145,41 @@ Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fourth-ye
 <div style="margin: 20px 0;"></div> <!-- 제목 사이 간격 -->
 
 ### Work in progress
-<!--<div style="counter-reset: paper-counter;">
-  <span class="paper-title">Revisiting the Weighting Scheme in Synthetic Difference-in-Differences</span><br>
-  joint with <a href="https://www.econ.uni-bonn.de/en/department/doctoral-students/chencheng-fang">Chencheng Fang</a><br>
-  <!--
-  <details>
-    <summary>
-      <span style="font-weight: bold; color: gray;">abstract</span>
-    </summary>
-    <span style="font-size: 95%; margin-top: 10px; display: block; text-align: justify;">
-      tbd
-      <br>
-    <span> presented at:</span> 3rd BCFM PhD conference (by coauthor)
-    </span>
-  </details>
-  -->
-<div style="counter-reset: paper-counter;">
-<div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
-<div>
-  <span class="paper-title">On the Failure of the Bracketing Relationship in Staggered
-Treatment Designs</span><br>
-  <details>
-  <summary><span class="abs-pill">ABS</span></summary>
-  <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
-      <span>
-        Applied researchers often face a dilemma regarding whether to include lagged dependent variables. When the outcome exhibits state dependence but lagged terms are omitted, standard estimates can be biased. Following Angrist and Pischke (2009), many rely on a ``bracketing relationship'', treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic breaks down in staggered two-way fixed effects settings. 
-      </span>
-</div>
-
-<div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;">
-</div>
 
 <div style="counter-reset: paper-counter;">
-<div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
-<div>
-  <span class="paper-title">Mobility-Dependent Estimands in Matched Panel Data under
-Misspecification</span><br>
-  <!--<details>
-  <summary><span class="abs-pill">ABS</span></summary>
-  <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
-      <span>
-        Applied researchers often face a dilemma regarding whether to include lagged dependent variables. When the outcome exhibits state dependence but lagged terms are omitted, standard estimates can be biased. Following Angrist and Pischke (2009), many rely on a ``bracketing relationship'', treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic breaks down in staggered two-way fixed effects settings. 
-      </span>-->
+  <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
+
+  <!-- Paper 1 -->
+  <div>
+    <span class="paper-title">
+      On the Failure of the Bracketing Relationship in Staggered Treatment Designs
+    </span><br>
+    <details>
+      <summary><span class="abs-pill">ABS</span></summary>
+      <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
+        <span>
+          Applied researchers often face a dilemma regarding whether to include lagged dependent variables. When the outcome exhibits state dependence but lagged terms are omitted, standard estimates can be biased. Following Angrist and Pischke (2009), many rely on a ``bracketing relationship'', treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic breaks down in staggered two-way fixed effects settings.
+        </span>
+      </div>
+    </details>
+  <div style="text-align: center; font-size: 90%; color: gray; margin-top: 40px;"></div>
+  </div>
+
+  <div style="margin: 10px 0;"></div> <!-- 간격 조정 -->
+
+  <!-- Paper 2 -->
+  <div>
+    <span class="paper-title">
+      Mobility-Dependent Estimands in Matched Panel Data under Misspecification
+    </span><br>
+    <details>
+      <summary><span class="abs-pill">ABS</span></summary>
+      <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
+        <span>
+          <!-- 여기에 두 번째 논문 abstract를 넣으면 됨 -->
+          (Abstract to be added.)
+        </span>
+      </div>
+    </details>
+  </div>
 </div>
