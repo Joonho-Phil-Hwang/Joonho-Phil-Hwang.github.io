@@ -67,7 +67,7 @@
 })();
 </script>
 
-Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fourth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on
+Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fifth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on
 - panel data models
 - causal inference
 
@@ -147,10 +147,6 @@ this heuristic breaks down in staggered two-way fixed effects settings.
 
 <!-- 여기서 counter를 다시 리셋 -->
 <div style="counter-reset: paper-counter;">
-
-<div style="margin: 22px 0 30px 0;">
-<span class="paper-title">Fixed Effects under Misspecification in Matched Panel Data</span><br>
-</div>
 
 <div style="margin: 22px 0 30px 0;">
 <span class="paper-title">Deep Panel Quantile Regression</span><br>
