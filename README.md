@@ -85,15 +85,7 @@ joint with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee
 <summary><span class="abs-pill">ABS</span></summary>
 <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
 <span>
-In this paper, we develop online updating methods for linear panel regression models.
-Online updating refers to procedures for sequentially updating parameter estimates
-as new data become available. In practice, the potential size of the dataset or data
-confidentiality constraints may preclude researchers from storing or accessing the
-entire dataset. We propose an online updating procedure for widely used linear
-regression models in panel data, where data expansion can occur through either
-(1) the arrival of new units or (2) the arrival of additional time periods for
-existing units. The proposed procedure yields closed-form expressions for updating
-both the point estimates and associated standard errors in each scenario.
+In this paper, we develop online updating methods for linear panel regression models. Online updating refers to procedures for sequentially updating parameter estimates as new data become available. In practice, the potential size of the dataset or data confidentiality constraints may preclude researchers from storing or accessing the entire dataset. We propose an online updating procedure for widely used linear regression models in panel data, where data expansion can occur through either (1) the arrival of new units or (2) the arrival of additional time periods for existing units. The proposed procedure yields closed-form expressions for updating both the point estimates and associated standard errors in each scenario.
 <br><br>
 <em>What is online updating?</em> See the example below:
 </span>
@@ -106,8 +98,7 @@ both the point estimates and associated standard errors in each scenario.
 
 <div style="margin-top: 10px;">
 <span style="text-decoration: underline;">presented at:</span>
-SNU Econometrics Workshop, SETA 2025, University of Sydney, KERIC 2025,
-SNU Workshop on Recent Advances in Econometrics
+SNU Econometrics Workshop, SETA 2025, University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics
 </div>
 </div>
 </details>
@@ -130,11 +121,7 @@ SNU Workshop on Recent Advances in Econometrics
 <summary><span class="abs-pill">ABS</span></summary>
 <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
 <span>
-Applied researchers often face a dilemma regarding whether to include lagged dependent variables.
-When the outcome exhibits state dependence but lagged terms are omitted, standard estimates can be biased.
-Following Angrist and Pischke (2009), many rely on a “bracketing relationship”, treating specifications
-with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that
-this heuristic breaks down in staggered two-way fixed effects settings.
+It is often for applied researchers to face a dilemma whether to include lagged dependent variables or not. Following Angrist & Pischke (2009), much research relies on a so-called bracketing relationship, treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic can break down in staggered two-way fixed effects settings.
 </span>
 </div>
 </details>
