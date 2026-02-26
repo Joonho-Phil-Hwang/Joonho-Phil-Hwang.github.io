@@ -79,7 +79,7 @@ Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fifth-yea
 <div style="margin: 22px 0 30px 0;">
 <span class="paper-title">Online Updating for Linear Panel Regressions</span><br>
 joint with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br>
-🏆 Awarded the <i>Best Third-Year Paper Award</i> by the Department of Economics at SNU<br>
+🏆 Awarded <i>The Best Third-Year Paper Award</i> by the Department of Economics at SNU<br>
   
 <details style="margin-top: 10px;">
 <summary><span class="abs-pill">ABS</span></summary>
