@@ -1,6 +1,6 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    document.title = "Joonho Phil Hwang";
+    document.title = "Joonho (Phil) Hwang";
 
     const headerLink = document.querySelector("header h1 a");
     if (headerLink && headerLink.parentElement) {
@@ -67,7 +67,7 @@
 })();
 </script>
 
-Hello. My name is Joonho Phil Hwang (황준호; 黃俊晧), and I am a fifth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on
+Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/). My research interests are in econometrics, with a particular focus on
 - panel data models
 - causal inference
 
