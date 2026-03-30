@@ -561,3 +561,25 @@ body.theme-dark .wrapper {
   text-align: justify;
   max-width: 700px;
 }
+
+.paper-actions a.abs-pill,
+.paper-actions a.abs-pill:visited,
+.paper-actions a.abs-pill:hover,
+.paper-actions a.abs-pill:focus {
+  color: #4B5563 !important;
+  text-decoration: none !important;
+}
+
+body.theme-dark .paper-actions a.abs-pill,
+body.theme-dark .paper-actions a.abs-pill:visited,
+body.theme-dark .paper-actions a.abs-pill:hover,
+body.theme-dark .paper-actions a.abs-pill:focus {
+  color: #f1f1f1 !important;
+  border-color: rgba(255,255,255,0.25) !important;
+  background-color: rgba(255,255,255,0.06) !important;
+  text-decoration: none !important;
+}
+
+body.theme-dark .paper-actions a.abs-pill:hover {
+  background-color: rgba(255,255,255,0.12) !important;
+}
