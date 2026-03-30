@@ -527,6 +527,7 @@ body.theme-dark .wrapper {
 
 .pill-details {
   display: inline-block;
+  margin: 0;
 }
 
 .pill-details summary {
@@ -541,25 +542,20 @@ body.theme-dark .wrapper {
 .abs-pill {
   display: inline-block;
   padding: 4px 10px;
-  border: 1px solid #999;
   border-radius: 999px;
+  border: 1px solid #D1D5DB;
   font-size: 0.85rem;
   line-height: 1.2;
-  color: #222;
-  background: #fff;
-  text-decoration: none;
   font-weight: 500;
+  background-color: #FFFFFF;
+  color: #4B5563;
+  text-decoration: none;
 }
 
-.pdf-pill {
-  cursor: pointer;
-}
-
-.abs-content {
-  margin-top: 10px;
-  font-size: 95%;
-  text-align: justify;
-  max-width: 700px;
+.pill-details[open] .abs-pill {
+  border-color: #16a34a;
+  color: #166534;
+  background-color: #ECFDF3;
 }
 
 .paper-actions a.abs-pill,
@@ -570,16 +566,33 @@ body.theme-dark .wrapper {
   text-decoration: none !important;
 }
 
+.abs-pill:hover {
+  background-color: #F3F4F6;
+}
+
+body.theme-dark .abs-pill {
+  border-color: rgba(255,255,255,0.25) !important;
+  color: #f1f1f1 !important;
+  background-color: rgba(255,255,255,0.06) !important;
+}
+
+body.theme-dark .pill-details[open] .abs-pill {
+  border-color: #7dd3fc !important;
+  background-color: rgba(125,211,252,0.14) !important;
+  color: #e0f2fe !important;
+}
+
 body.theme-dark .paper-actions a.abs-pill,
 body.theme-dark .paper-actions a.abs-pill:visited,
 body.theme-dark .paper-actions a.abs-pill:hover,
 body.theme-dark .paper-actions a.abs-pill:focus {
   color: #f1f1f1 !important;
-  border-color: rgba(255,255,255,0.25) !important;
-  background-color: rgba(255,255,255,0.06) !important;
   text-decoration: none !important;
 }
 
-body.theme-dark .paper-actions a.abs-pill:hover {
-  background-color: rgba(255,255,255,0.12) !important;
+.abs-content {
+  margin-top: 10px;
+  font-size: 95%;
+  text-align: justify;
+  max-width: 700px;
 }
