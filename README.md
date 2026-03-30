@@ -106,10 +106,10 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
 
 <span class="paper-title">On the Failure of the Bracketing Relationship in Staggered Treatment Designs</span><br>
 
-<div style="margin-top: 10px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
-  <details>
+<div class="paper-actions">
+  <details class="pill-details">
     <summary><span class="abs-pill">ABS</span></summary>
-    <div style="font-size: 95%; margin-top: 10px; text-align: justify; max-width: 700px;">
+    <div class="abs-content">
       <span>
         Applied researchers routinely face the question of whether to include lagged dependent variables in panel data specifications. Following Angrist &amp; Pischke (2009), much research relies on a so-called bracketing relationship, treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic can break down in staggered two-way fixed effects settings.
       </span>
@@ -120,13 +120,11 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
     href="https://drive.google.com/file/d/1ZFeSCLza7QgTKlNr_515YtjGtTybF3Gi/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
-    class="abs-pill"
-    style="text-decoration: none; display: inline-block;"
+    class="abs-pill pdf-pill"
   >
     PDF
   </a>
 </div>
-
 </div>
 
 <div style="margin: 26px 0;"></div>
