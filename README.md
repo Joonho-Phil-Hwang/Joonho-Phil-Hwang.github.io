@@ -104,17 +104,27 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
   </details>
 </div>
 
-<div style="margin: 22px 0 30px 0;">
 <span class="paper-title">On the Failure of the Bracketing Relationship in Staggered Treatment Designs</span><br>
 
-<details style="margin-top: 10px;">
-<summary><span class="abs-pill">ABS</span></summary>
-<div style="font-size: 95%; margin-top: 10px; text-align: justify;">
-<span>
-It is often for applied researchers to face a dilemma whether to include lagged dependent variables or not. Following Angrist & Pischke (2009), much research relies on a so-called bracketing relationship, treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic can break down in staggered two-way fixed effects settings.
-</span>
-</div>
-</details>
+<div style="margin-top: 10px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+  <details>
+    <summary><span class="abs-pill">ABS</span></summary>
+    <div style="font-size: 95%; margin-top: 10px; text-align: justify; max-width: 700px;">
+      <span>
+        Applied researchers routinely face the question of whether to include lagged dependent variables in panel data specifications. Following Angrist &amp; Pischke (2009), much research relies on a so-called bracketing relationship, treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic can break down in staggered two-way fixed effects settings.
+      </span>
+    </div>
+  </details>
+
+  <a
+    href="https://drive.google.com/file/d/1ZFeSCLza7QgTKlNr_515YtjGtTybF3Gi/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="abs-pill"
+    style="text-decoration: none; display: inline-block;"
+  >
+    PDF
+  </a>
 </div>
 
 </div>
