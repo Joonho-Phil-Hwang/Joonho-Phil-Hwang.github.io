@@ -87,14 +87,6 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
   <span>
   In this paper, we develop online updating methods for linear panel regression models. Online updating refers to procedures for sequentially updating parameter estimates as new data become available. In practice, the potential size of the dataset or data confidentiality constraints may preclude researchers from storing or accessing the entire dataset. We propose an online updating procedure for widely used linear regression models in panel data, where data expansion can occur through either (1) the arrival of new units or (2) the arrival of additional time periods for existing units. The proposed procedure yields closed-form expressions for updating both the point estimates and associated standard errors in each scenario.
   <br><br>
-  <em>What is online updating?</em> See the example below:
-  </span>
-  
-  <div style="text-align: center; margin-top: 10px;">
-  <img src="https://github.com/Joonho-Phil-Hwang/Online_updating/blob/main/beta_path.gif?raw=true"
-       alt="Online Updating Beta Path GIF"
-       style="width: 70%; max-width: 600px; border: 1px solid #ccc; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
-  </div>
   
   <div style="margin-top: 10px;">
   <span style="text-decoration: underline;">presented at:</span>
