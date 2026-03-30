@@ -80,19 +80,19 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
   <span class="paper-title">Online Updating for Linear Panel Regressions</span><br>
   joint with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br>
   🏆 <span style="color: #F5A623;">The Best Third-Year Paper Award</span> in Department of Economics @ SNU<br>
-  
+
   <details style="margin-top: 10px;">
-  <summary><span class="abs-pill">ABS</span></summary>
-  <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
-  <span>
-  In this paper, we develop online updating methods for linear panel regression models. Online updating refers to procedures for sequentially updating parameter estimates as new data become available. In practice, the potential size of the dataset or data confidentiality constraints may preclude researchers from storing or accessing the entire dataset. We propose an online updating procedure for widely used linear regression models in panel data, where data expansion can occur through either (1) the arrival of new units or (2) the arrival of additional time periods for existing units. The proposed procedure yields closed-form expressions for updating both the point estimates and associated standard errors in each scenario.
-  <br><br>
-  
-  <div style="margin-top: 10px;">
-  <span style="text-decoration: underline;">presented at:</span>
-  SNU Econometrics Workshop, SETA 2025, University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics
-  </div>
-  </div>
+    <summary><span class="abs-pill">ABS</span></summary>
+    <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
+      <p style="margin: 0 0 10px 0;">
+        In this paper, we develop online updating methods for linear panel regression models. Online updating refers to procedures for sequentially updating parameter estimates as new data become available. In practice, the potential size of the dataset or data confidentiality constraints may preclude researchers from storing or accessing the entire dataset. We propose an online updating procedure for widely used linear regression models in panel data, where data expansion can occur through either (1) the arrival of new units or (2) the arrival of additional time periods for existing units. The proposed procedure yields closed-form expressions for updating both the point estimates and associated standard errors in each scenario.
+      </p>
+
+      <p style="margin: 0;">
+        <span style="text-decoration: underline;">Presented at:</span>
+        SNU Econometrics Workshop, SETA 2025, University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics
+      </p>
+    </div>
   </details>
 </div>
 
