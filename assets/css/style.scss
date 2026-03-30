@@ -516,3 +516,48 @@ body.theme-dark .wrapper {
 body.theme-dark .wrapper {
   padding: 24px 18px !important;  /* 너가 원래 쓰던 값으로 */
 }
+
+.paper-actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.pill-details {
+  display: inline-block;
+}
+
+.pill-details summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.pill-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.abs-pill {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid #999;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  color: #222;
+  background: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.pdf-pill {
+  cursor: pointer;
+}
+
+.abs-content {
+  margin-top: 10px;
+  font-size: 95%;
+  text-align: justify;
+  max-width: 700px;
+}
