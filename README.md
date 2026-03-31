@@ -128,7 +128,7 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
 
 <div style="margin: 22px 0 30px 0;">
 <span class="paper-title">Deep Panel Quantile Regression</span> (with <a href="https://ccfang2.github.io/">Chencheng Fang</a> and
-<a href="https://sites.google.com/view/gayeon-hong/">Gayeon Hong</a>) <br>
+<a href="https://sites.google.com/view/gayeon-hong/">Gayeon Hong</a>)
 </div>
 
 <div style="margin: 22px 0 30px 0;">
