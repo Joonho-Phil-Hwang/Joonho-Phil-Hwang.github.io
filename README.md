@@ -123,16 +123,15 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
 
 <h3>Work in progress</h3>
 
-<!-- 여기서 counter를 다시 리셋 -->
 <div style="counter-reset: paper-counter;">
 
-<div style="margin: 22px 0 30px 0;">
+<div style="margin: 10px 0 14px 0;">
 <span class="paper-title">Deep Panel Quantile Regression</span> (with <a href="https://ccfang2.github.io/">Chencheng Fang</a> and
 <a href="https://sites.google.com/view/gayeon-hong/">Gayeon Hong</a>)
 </div>
 
-<div style="margin: 22px 0 30px 0;">
-<span class="paper-title">Synthetic Difference-in-Differences with Missing Post-Treatment Outcomes</span> (with <a href="https://ccfang2.github.io/">Chencheng Fang</a>)<br>
+<div style="margin: 10px 0 14px 0;">
+<span class="paper-title">Synthetic Difference-in-Differences with Missing Post-Treatment Outcomes</span> (with <a href="https://ccfang2.github.io/">Chencheng Fang</a>)
 </div>
 
 </div>
