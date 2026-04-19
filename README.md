@@ -96,7 +96,7 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
   </details>
 </div>
 
-<span class="paper-title">On the Failure of the Bracketing Relationship in Staggered Treatment Designs</span><br>
+<span class="paper-title">On the Bracketing Relationship in Staggered Treatment Designs</span><br>
 
 <div class="paper-actions">
   <details class="pill-details">
@@ -109,7 +109,7 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
   </details>
 
   <a
-    href="https://drive.google.com/file/d/1ZFeSCLza7QgTKlNr_515YtjGtTybF3Gi/view?usp=sharing"
+    href="https://drive.google.com/file/d/1OywpSJyjLC3es5_pC6MGTUEEu11rkCPJ/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     class="abs-pill pdf-pill"
