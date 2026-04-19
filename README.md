@@ -103,7 +103,7 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
     <summary><span class="abs-pill">ABS</span></summary>
     <div class="abs-content">
       <span>
-        Applied researchers routinely face the question of whether to include lagged dependent variables in panel data specifications. Following Angrist &amp; Pischke (2009), much research relies on a so-called bracketing relationship, treating specifications with and without lagged outcomes as bounds for the true causal effect. In this paper, we demonstrate that this heuristic can break down in staggered two-way fixed effects settings.
+        Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimates as upper and lower bounds on a treatment effect. This paper shows that this bracketing relationship can fail in staggered treatment designs. In staggered two-way fixed effects settings, neither estimator necessarily bounds the true group-time average treatment effect. Monte Carlo simulations show that such failures are common. The results suggest caution in using fixed-effects and LDV estimates as informal bounds in staggered-adoption settings.
       </span>
     </div>
   </details>
