@@ -97,7 +97,7 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
 </div>
 
 <span class="paper-title">On the Bracketing Relationship in Staggered Treatment Designs</span><br>
-
+<strong><em>Submitted</em></strong><br>
 <div class="paper-actions">
   <details class="pill-details">
     <summary><span class="abs-pill">ABS</span></summary>
