@@ -116,6 +116,15 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
   >
     PDF
   </a>
+
+  <a
+    href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="abs-pill ssrn-pill"
+  >
+    SSRN
+  </a>
 </div>
 </div>
 
