@@ -205,25 +205,21 @@ details > summary::marker {
    ============================= */
 
 .paper-actions {
-  display: flex;
-  align-items: center;
-  gap: 7px;
   margin-top: 10px;
-  flex-wrap: wrap;
 }
 
-/* details wrapper 자체는 flex item으로 취급하지 않음 */
 .pill-details {
-  display: contents;
+  display: block;
   margin: 0;
 }
 
-/* Abstract 버튼 */
 .pill-details summary {
-  display: inline-block;
-  order: 1;
+  display: flex;
+  align-items: center;
+  gap: 7px;
   list-style: none;
   cursor: pointer;
+  width: fit-content;
 }
 
 .pill-details summary::-webkit-details-marker {
@@ -232,11 +228,6 @@ details > summary::marker {
 
 .pill-details summary::marker {
   content: "";
-}
-
-/* Pdf / SSRN 버튼 */
-.paper-actions > a.abs-pill {
-  order: 2;
 }
 
 /* 공통 pill 스타일 */
@@ -259,7 +250,7 @@ details > summary::marker {
     color 0.18s ease;
 }
 
-/* PDF / SSRN 같은 링크 pill이 초록 링크색을 상속하지 않도록 고정 */
+/* PDF / SSRN 링크 pill 색 고정 */
 .paper-actions a.abs-pill,
 .paper-actions a.abs-pill:visited {
   color: var(--pill-text) !important;
@@ -276,24 +267,50 @@ details > summary::marker {
   text-decoration: none !important;
 }
 
-/* abstract가 열렸을 때 */
-.pill-details[open] > summary .abs-pill {
+/* abstract가 열렸을 때 Abstract 버튼만 강조 */
+.pill-details[open] summary > .abs-pill:first-child {
   border-color: var(--pill-border-open);
   background-color: var(--pill-bg-open);
   color: var(--pill-text-open);
 }
 
-/* abstract 본문은 항상 버튼 줄 아래로 */
+/* abstract 본문 */
 .abs-content {
-  order: 99;
-  flex: 0 0 100%;
-  width: 100%;
   margin-top: 10px;
   font-size: 95%;
   line-height: 1.58;
   text-align: justify;
   max-width: 700px;
 }
+
+/* 다크모드 pill */
+body.theme-dark .abs-pill {
+  border-color: rgba(226, 232, 240, 0.32) !important;
+  background-color: rgba(241, 245, 249, 0.06) !important;
+  color: #e5e7eb !important;
+}
+
+body.theme-dark .paper-actions a.abs-pill,
+body.theme-dark .paper-actions a.abs-pill:visited {
+  color: #e5e7eb !important;
+  text-decoration: none !important;
+}
+
+body.theme-dark .abs-pill:hover,
+body.theme-dark .paper-actions a.abs-pill:hover,
+body.theme-dark .paper-actions a.abs-pill:focus {
+  border-color: rgba(186, 230, 253, 0.65) !important;
+  background-color: rgba(125, 211, 252, 0.10) !important;
+  color: #e0f2fe !important;
+  text-decoration: none !important;
+}
+
+body.theme-dark .pill-details[open] summary > .abs-pill:first-child {
+  border-color: rgba(125, 211, 252, 0.75) !important;
+  background-color: rgba(125, 211, 252, 0.14) !important;
+  color: #e0f2fe !important;
+}
+
 /* =============================
    Light ↔ Dark 색 전환
    ============================= */
