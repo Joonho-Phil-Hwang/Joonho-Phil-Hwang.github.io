@@ -76,60 +76,66 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
 
 <div style="counter-reset: paper-counter;">
 
-<div style="margin: 22px 0 30px 0;">
-  <span class="paper-title">Online Updating for Linear Panel Regressions</span><br>
-  with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br>
+  <div class="paper-item" style="margin: 22px 0 30px 0;">
+    <span class="paper-title">Online Updating for Linear Panel Regressions</span><br>
+    with <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a><br>
 
-  <details style="margin-top: 10px;">
-    <summary><span class="abs-pill">ABS</span></summary>
-    <div style="font-size: 95%; margin-top: 10px; text-align: justify;">
-      <p style="margin: 0 0 10px 0;">
-        In this paper, we develop online updating methods for linear panel regression models. Online updating refers to procedures for sequentially updating parameter estimates as new data become available. In practice, the potential size of the dataset or data confidentiality constraints may preclude researchers from storing or accessing the entire dataset. We propose an online updating procedure for widely used linear regression models in panel data, where data expansion can occur through either (1) the arrival of new units or (2) the arrival of additional time periods for existing units. The proposed procedure yields closed-form expressions for updating both the point estimates and associated standard errors in each scenario.
-      </p>
+    <div class="paper-actions">
+      <details class="pill-details">
+        <summary><span class="abs-pill">ABS</span></summary>
+        <div class="abs-content">
+          <p style="margin: 0 0 10px 0;">
+            In this paper, we develop online updating methods for linear panel regression models. Online updating refers to procedures for sequentially updating parameter estimates as new data become available. In practice, the potential size of the dataset or data confidentiality constraints may preclude researchers from storing or accessing the entire dataset. We propose an online updating procedure for widely used linear regression models in panel data, where data expansion can occur through either (1) the arrival of new units or (2) the arrival of additional time periods for existing units. The proposed procedure yields closed-form expressions for updating both the point estimates and associated standard errors in each scenario.
+          </p>
 
-      <p style="margin: 0 0 6px 0;">
-        <span style="text-decoration: underline;">Award:</span>
-        Best Third-Year Paper, Department of Economics, SNU.
-      </p>
+          <p style="margin: 0 0 6px 0;">
+            <span style="font-weight: 500;">Award:</span>
+            Best Third-Year Paper, Department of Economics, Seoul National University.
+          </p>
 
-      <p style="margin: 0;">
-        <span style="text-decoration: underline;">Presented at:</span>
-        SNU Econometrics Workshop, SETA 2025 (University of Macau), University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics.
-      </p>
+          <p style="margin: 0;">
+            <span style="font-weight: 500;">Presented at:</span>
+            SNU Econometrics Workshop, SETA 2025 (University of Macau), University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics.
+          </p>
+        </div>
+      </details>
     </div>
-  </details>
-</div>
+  </div>
 
-<span class="paper-title">On the Bracketing Relationship in Staggered Treatment Designs</span><br>
-<span class="paper-status">Submitted</span><br>
-<div class="paper-actions">
-  <details class="pill-details">
-    <summary><span class="abs-pill">ABS</span></summary>
-    <div class="abs-content">
-      <span>
-        Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimates as upper and lower bounds on a treatment effect. This paper shows that this bracketing relationship can fail in staggered treatment designs. In staggered two-way fixed effects settings, neither estimator necessarily bounds the true group-time average treatment effect. Monte Carlo simulations show that such failures are common. The results suggest caution in using fixed-effects and LDV estimates as informal bounds in staggered-adoption settings.
-      </span>
+  <div class="paper-item" style="margin: 22px 0 30px 0;">
+    <span class="paper-title">On the Bracketing Relationship in Staggered Treatment Designs</span><br>
+    <span class="paper-status">Submitted</span><br>
+
+    <div class="paper-actions">
+      <details class="pill-details">
+        <summary><span class="abs-pill">ABS</span></summary>
+        <div class="abs-content">
+          <p style="margin: 0;">
+            Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimates as upper and lower bounds on a treatment effect. This paper shows that this bracketing relationship can fail in staggered treatment designs. In staggered two-way fixed effects settings, neither estimator necessarily bounds the true group-time average treatment effect. Monte Carlo simulations show that such failures are common. The results suggest caution in using fixed-effects and LDV estimates as informal bounds in staggered-adoption settings.
+          </p>
+        </div>
+      </details>
+
+      <a
+        href="https://drive.google.com/file/d/1OywpSJyjLC3es5_pC6MGTUEEu11rkCPJ/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="abs-pill pdf-pill"
+      >
+        PDF
+      </a>
+
+      <a
+        href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="abs-pill ssrn-pill"
+      >
+        SSRN
+      </a>
     </div>
-  </details>
+  </div>
 
-  <a
-    href="https://drive.google.com/file/d/1OywpSJyjLC3es5_pC6MGTUEEu11rkCPJ/view?usp=sharing"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="abs-pill pdf-pill"
-  >
-    PDF
-  </a>
-
-  <a
-    href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="abs-pill ssrn-pill"
-  >
-    SSRN
-  </a>
-</div>
 </div>
 
 <div style="margin: 26px 0;"></div>
