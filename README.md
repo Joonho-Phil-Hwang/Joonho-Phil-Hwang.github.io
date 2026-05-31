@@ -157,13 +157,13 @@
 
   <div class="paper-item" style="margin: 10px 0 14px 0;">
     <span class="paper-title">Deep Panel Quantile Regression</span>
-    with <a href="https://ccfang2.github.io/">Chencheng Fang</a> and
-    <a href="https://sites.google.com/view/gayeon-hong/">Gayeon Hong</a>
+    (with <a href="https://ccfang2.github.io/">Chencheng Fang</a> and
+    <a href="https://sites.google.com/view/gayeon-hong/">Gayeon Hong</a>)
   </div>
 
   <div class="paper-item" style="margin: 10px 0 14px 0;">
     <span class="paper-title">Synthetic Difference-in-Differences with Missing Post-Treatment Outcomes</span>
-    with <a href="https://ccfang2.github.io/">Chencheng Fang</a>
+    (with <a href="https://ccfang2.github.io/">Chencheng Fang</a>)
   </div>
 
 </div>
