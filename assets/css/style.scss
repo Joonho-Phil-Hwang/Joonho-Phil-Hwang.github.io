@@ -212,14 +212,16 @@ details > summary::marker {
   flex-wrap: wrap;
 }
 
-/* details wrapper가 flex item으로 공간을 차지하지 않게 함 */
+/* details wrapper 자체는 flex item으로 취급하지 않음 */
 .pill-details {
   display: contents;
   margin: 0;
 }
 
+/* Abstract 버튼 */
 .pill-details summary {
   display: inline-block;
+  order: 1;
   list-style: none;
   cursor: pointer;
 }
@@ -230,6 +232,11 @@ details > summary::marker {
 
 .pill-details summary::marker {
   content: "";
+}
+
+/* Pdf / SSRN 버튼 */
+.paper-actions > a.abs-pill {
+  order: 2;
 }
 
 /* 공통 pill 스타일 */
@@ -278,7 +285,8 @@ details > summary::marker {
 
 /* abstract 본문은 항상 버튼 줄 아래로 */
 .abs-content {
-  flex-basis: 100%;
+  order: 99;
+  flex: 0 0 100%;
   width: 100%;
   margin-top: 10px;
   font-size: 95%;
@@ -286,7 +294,6 @@ details > summary::marker {
   text-align: justify;
   max-width: 700px;
 }
-
 /* =============================
    Light ↔ Dark 색 전환
    ============================= */
