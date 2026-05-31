@@ -85,7 +85,7 @@
 
     <div class="paper-actions">
       <details class="pill-details">
-        <summary><span class="abs-pill">ABS</span></summary>
+        <summary><span class="abs-pill">Abstract</span></summary>
 
         <div class="abs-content">
           <p style="margin: 0 0 10px 0;">
@@ -112,7 +112,7 @@
 
     <div class="paper-actions">
       <details class="pill-details">
-        <summary><span class="abs-pill">ABS</span></summary>
+        <summary><span class="abs-pill">Abstract</span></summary>
 
         <div class="abs-content">
           <p style="margin: 0;">
@@ -126,7 +126,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="abs-pill pdf-pill"
-      >PDF</a>
+      >Pdf</a>
 
       <a
         href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845"
