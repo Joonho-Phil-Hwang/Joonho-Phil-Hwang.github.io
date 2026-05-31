@@ -268,7 +268,7 @@ details > summary::marker {
 }
 
 /* abstract가 열렸을 때 Abstract 버튼만 강조 */
-.pill-details[open] summary > .abs-pill:first-child {
+.pill-details[open] .abstract-pill {
   border-color: var(--pill-border-open);
   background-color: var(--pill-bg-open);
   color: var(--pill-text-open);
@@ -281,34 +281,6 @@ details > summary::marker {
   line-height: 1.58;
   text-align: justify;
   max-width: 700px;
-}
-
-/* 다크모드 pill */
-body.theme-dark .abs-pill {
-  border-color: rgba(226, 232, 240, 0.32) !important;
-  background-color: rgba(241, 245, 249, 0.06) !important;
-  color: #e5e7eb !important;
-}
-
-body.theme-dark .paper-actions a.abs-pill,
-body.theme-dark .paper-actions a.abs-pill:visited {
-  color: #e5e7eb !important;
-  text-decoration: none !important;
-}
-
-body.theme-dark .abs-pill:hover,
-body.theme-dark .paper-actions a.abs-pill:hover,
-body.theme-dark .paper-actions a.abs-pill:focus {
-  border-color: rgba(186, 230, 253, 0.65) !important;
-  background-color: rgba(125, 211, 252, 0.10) !important;
-  color: #e0f2fe !important;
-  text-decoration: none !important;
-}
-
-body.theme-dark .pill-details[open] summary > .abs-pill:first-child {
-  border-color: rgba(125, 211, 252, 0.75) !important;
-  background-color: rgba(125, 211, 252, 0.14) !important;
-  color: #e0f2fe !important;
 }
 
 /* =============================
@@ -480,7 +452,8 @@ body.theme-dark .paper-actions a.abs-pill:focus {
   text-decoration: none !important;
 }
 
-body.theme-dark .pill-details[open] > summary .abs-pill {
+/* 다크모드에서도 Abstract 버튼만 open-state 강조 */
+body.theme-dark .pill-details[open] .abstract-pill {
   border-color: rgba(125, 211, 252, 0.75) !important;
   background-color: rgba(125, 211, 252, 0.14) !important;
   color: #e0f2fe !important;
