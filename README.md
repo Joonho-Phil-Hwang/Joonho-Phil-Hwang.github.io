@@ -48,6 +48,12 @@
         localStorage.setItem(storageKey, nextTheme);
       });
     }
+
+    document.querySelectorAll(".pill-details summary a").forEach(function (link) {
+      link.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+    });
   });
 </script>
 
@@ -85,7 +91,9 @@
 
     <div class="paper-actions">
       <details class="pill-details">
-        <summary><span class="abs-pill">Abstract</span></summary>
+        <summary>
+          <span class="abs-pill abstract-pill">Abstract</span>
+        </summary>
 
         <div class="abs-content">
           <p style="margin: 0 0 10px 0;">
@@ -106,38 +114,38 @@
     </div>
   </div>
 
-<div class="paper-item" style="margin: 22px 0 30px 0;">
-  <span class="paper-title">On the Bracketing Relationship in Staggered Treatment Designs</span><br>
-  <span class="paper-status">Submitted</span><br>
+  <div class="paper-item" style="margin: 22px 0 30px 0;">
+    <span class="paper-title">On the Bracketing Relationship in Staggered Treatment Designs</span><br>
+    <span class="paper-status">Submitted</span><br>
 
-  <div class="paper-actions">
-    <details class="pill-details">
-      <summary>
-        <span class="abs-pill">Abstract</span>
+    <div class="paper-actions">
+      <details class="pill-details">
+        <summary>
+          <span class="abs-pill abstract-pill">Abstract</span>
 
-        <a
-          href="https://drive.google.com/file/d/1OywpSJyjLC3es5_pC6MGTUEEu11rkCPJ/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="abs-pill pdf-pill"
-        >Pdf</a>
+          <a
+            href="https://drive.google.com/file/d/1OywpSJyjLC3es5_pC6MGTUEEu11rkCPJ/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="abs-pill pdf-pill"
+          >Pdf</a>
 
-        <a
-          href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="abs-pill ssrn-pill"
-        >SSRN</a>
-      </summary>
+          <a
+            href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="abs-pill ssrn-pill"
+          >SSRN</a>
+        </summary>
 
-      <div class="abs-content">
-        <p style="margin: 0;">
-          Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimates as upper and lower bounds on a treatment effect. This paper shows that this bracketing relationship can fail in staggered treatment designs. In staggered two-way fixed effects settings, neither estimator necessarily bounds the true group-time average treatment effect. Monte Carlo simulations show that such failures are common. The results suggest caution in using fixed-effects and LDV estimates as informal bounds in staggered-adoption settings.
-        </p>
-      </div>
-    </details>
+        <div class="abs-content">
+          <p style="margin: 0;">
+            Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimates as upper and lower bounds on a treatment effect. This paper shows that this bracketing relationship can fail in staggered treatment designs. In staggered two-way fixed effects settings, neither estimator necessarily bounds the true group-time average treatment effect. Monte Carlo simulations show that such failures are common. The results suggest caution in using fixed-effects and LDV estimates as informal bounds in staggered-adoption settings.
+          </p>
+        </div>
+      </details>
+    </div>
   </div>
-</div>
 
 </div>
 
