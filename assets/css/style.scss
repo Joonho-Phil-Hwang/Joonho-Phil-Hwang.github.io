@@ -201,7 +201,7 @@ details > summary::marker {
 
 /* =============================
    Professional paper action pills
-   ABS / PDF / SSRN / etc.
+   Abstract / Pdf / SSRN
    ============================= */
 
 .paper-actions {
@@ -212,12 +212,14 @@ details > summary::marker {
   flex-wrap: wrap;
 }
 
+/* details wrapper가 flex item으로 공간을 차지하지 않게 함 */
 .pill-details {
-  display: inline-block;
+  display: contents;
   margin: 0;
 }
 
 .pill-details summary {
+  display: inline-block;
   list-style: none;
   cursor: pointer;
 }
@@ -274,8 +276,10 @@ details > summary::marker {
   color: var(--pill-text-open);
 }
 
-/* abstract 본문 */
+/* abstract 본문은 항상 버튼 줄 아래로 */
 .abs-content {
+  flex-basis: 100%;
+  width: 100%;
   margin-top: 10px;
   font-size: 95%;
   line-height: 1.58;
