@@ -106,7 +106,7 @@
           </p>
 
           <p style="margin: 0;">
-            <span style="font-weight: 500;">Presented at:</span>
+            <span style="font-weight: 500;">Presentation:</span>
             SNU Econometrics Workshop, SETA 2025 (University of Macau), University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics.
           </p>
         </div>
@@ -116,7 +116,7 @@
 
   <div class="paper-item" style="margin: 22px 0 30px 0;">
     <span class="paper-title">On the Bracketing Relationship in Staggered Treatment Designs</span><br>
-    <span class="paper-status">Submitted</span><br>
+    <span class="paper-status">under review</span><br>
 
     <div class="paper-actions">
       <details class="pill-details">
