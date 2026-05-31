@@ -602,3 +602,110 @@ body.theme-dark .paper-actions a.abs-pill:focus {
   font-weight: 700;
   color: inherit;
 }
+
+/* =====================================
+   Professional paper action pills
+   ABS / PDF / SSRN / etc.
+   ===================================== */
+
+.paper-actions {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.pill-details {
+  display: inline-block;
+  margin: 0;
+}
+
+.pill-details summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.pill-details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* shared pill style */
+.abs-pill {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid #B7C2CC;
+  background-color: #F7FAFC;
+  color: #4F6475;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  text-decoration: none !important;
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease;
+}
+
+/* link pills should not inherit green link color */
+.paper-actions a.abs-pill,
+.paper-actions a.abs-pill:visited {
+  color: #4F6475 !important;
+  text-decoration: none !important;
+}
+
+/* hover: subtle, not badge-like */
+.abs-pill:hover,
+.paper-actions a.abs-pill:hover,
+.paper-actions a.abs-pill:focus {
+  border-color: #8FA2B2;
+  background-color: #EEF4F8;
+  color: #3F5363 !important;
+  text-decoration: none !important;
+}
+
+/* open abstract state */
+.pill-details[open] .abs-pill {
+  border-color: #7E96A8;
+  background-color: #EAF2F7;
+  color: #344B5C;
+}
+
+/* abstract body */
+.abs-content {
+  margin-top: 10px;
+  font-size: 95%;
+  line-height: 1.58;
+  text-align: justify;
+  max-width: 700px;
+}
+
+/* dark mode */
+body.theme-dark .abs-pill {
+  border-color: rgba(226, 232, 240, 0.32) !important;
+  background-color: rgba(241, 245, 249, 0.06) !important;
+  color: #E5E7EB !important;
+}
+
+body.theme-dark .paper-actions a.abs-pill,
+body.theme-dark .paper-actions a.abs-pill:visited {
+  color: #E5E7EB !important;
+  text-decoration: none !important;
+}
+
+body.theme-dark .abs-pill:hover,
+body.theme-dark .paper-actions a.abs-pill:hover,
+body.theme-dark .paper-actions a.abs-pill:focus {
+  border-color: rgba(186, 230, 253, 0.65) !important;
+  background-color: rgba(125, 211, 252, 0.10) !important;
+  color: #E0F2FE !important;
+  text-decoration: none !important;
+}
+
+body.theme-dark .pill-details[open] .abs-pill {
+  border-color: rgba(125, 211, 252, 0.75) !important;
+  background-color: rgba(125, 211, 252, 0.14) !important;
+  color: #E0F2FE !important;
+}
