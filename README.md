@@ -73,7 +73,7 @@
 <button id="theme-toggle" type="button" aria-label="Toggle color mode">🌙</button>
 
 <p>
-Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a>. My research interests are in econometrics, especially panel data models and causal inference that exploit panel data structures, such as difference-in-differences designs. I am also interested in network econometrics and the use of machine and deep learning methods in econometric analysis.
+Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a>. My research interests are in econometrics, especially panel data models and causal inference that exploits panel data structures, such as difference-in-differences designs. I am also interested in network econometrics and the use of machine and deep learning methods in econometric analysis.
 </p>
 
 <h3>Working papers</h3>
