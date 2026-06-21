@@ -58,6 +58,20 @@
 </script>
 
 <style>
+  header {
+    display: none;
+  }
+
+  section {
+    width: 100%;
+    float: none;
+  }
+
+  .wrapper {
+    width: min(920px, calc(100% - 48px));
+    margin: 56px auto 48px auto;
+  }
+
   .profile-header {
     display: flex;
     align-items: center;
@@ -102,6 +116,11 @@
   }
 
   @media (max-width: 600px) {
+    .wrapper {
+      width: calc(100% - 32px);
+      margin-top: 32px;
+    }
+
     .profile-header {
       align-items: flex-start;
       gap: 16px;
