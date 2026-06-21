@@ -1,3 +1,73 @@
+<style>
+html,
+body,
+.wrapper,
+header,
+section,
+footer,
+p,
+li,
+a,
+span,
+div,
+summary,
+details,
+button,
+input,
+textarea,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.paper-title,
+.paper-status,
+.abs-pill,
+.abs-content {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+body {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-weight: 400 !important;
+  -webkit-font-smoothing: auto !important;
+  text-rendering: auto !important;
+}
+
+header h1,
+header h1 a {
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+}
+
+strong,
+b {
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: 700 !important;
+}
+
+em,
+i,
+.paper-status {
+  font-family: "Times New Roman", Times, serif !important;
+  font-style: italic !important;
+}
+</style>
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     document.title = "Joonho (Phil) Hwang";
