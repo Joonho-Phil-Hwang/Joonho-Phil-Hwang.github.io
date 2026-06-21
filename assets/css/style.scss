@@ -8,7 +8,7 @@
    ============================= */
 
 :root {
-  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-main: "Times New Roman", Times, serif;
 
   --accent-green: #02AC3F;
   --accent-green-dark: #028A33;
@@ -56,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-main) !important;
 }
 
 /* =============================
@@ -65,11 +65,11 @@ h6 {
 
 body {
   color: var(--text-dark);
-  font-size: 15px;
-  line-height: 1.58;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  text-rendering: auto;
+  -webkit-font-smoothing: auto;
 }
 
 p {
@@ -85,24 +85,24 @@ li {
 header h1,
 header h1 a {
   color: #111111;
-  font-weight: 400;
-  letter-spacing: -0.02em;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 /* 섹션 제목 */
 h2, h3 {
   color: var(--heading-dark);
   letter-spacing: 0;
-  margin-top: 1.5em;
-  margin-bottom: 0.6em;
-  font-weight: 600;
+  margin-top: 1.45em;
+  margin-bottom: 0.55em;
+  font-weight: 700;
 }
 
 h4,
 h5,
 h6 {
   color: var(--heading-dark);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* =============================
@@ -181,7 +181,7 @@ header p:not(.view) {
   text-align: center;
   margin-top: 0.6em;
   margin-bottom: 0;
-  font-size: 0.95em;
+  font-size: 1em;
 }
 
 /* Footer 숨기기 */
@@ -207,7 +207,7 @@ footer {
 }
 
 .summary-section .summary-body strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* =============================
@@ -217,7 +217,7 @@ footer {
 details > summary {
   list-style: none;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 details > summary::-webkit-details-marker {
@@ -281,10 +281,10 @@ details > summary::marker {
   border: 1px solid var(--pill-border);
   background-color: var(--pill-bg);
   color: var(--pill-text);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   line-height: 1.2;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  font-weight: 400;
+  letter-spacing: 0;
   text-transform: none;
   text-decoration: none !important;
   transition:
@@ -320,8 +320,8 @@ details > summary::marker {
 /* abstract 본문 */
 .abs-content {
   margin-top: 10px;
-  font-size: 95%;
-  line-height: 1.58;
+  font-size: 100%;
+  line-height: 1.5;
   text-align: justify;
   max-width: 700px;
 }
@@ -394,7 +394,7 @@ footer,
    ============================= */
 
 body.theme-light {
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   color: var(--text-dark);
 }
 
@@ -433,7 +433,7 @@ body.theme-dark div {
 body.theme-dark header h1,
 body.theme-dark header h1 a {
   color: #ffffff !important;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 body.theme-dark a,
