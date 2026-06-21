@@ -172,7 +172,7 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
 
           <p style="margin: 0;">
             <span style="font-weight: 500;">Presentation:</span>
-            SNU Econometrics Workshop, SETA 2025 (University of Macau), University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics.
+            SNU Econometrics Workshop, SETA 2025 (University of Macau), University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics, SETA 2026 (University of Tokyo).
           </p>
         </div>
       </details>
