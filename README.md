@@ -58,52 +58,6 @@
 </script>
 
 <style>
-  header {
-    display: none;
-  }
-
-  section {
-    width: 100%;
-    float: none;
-  }
-
-  .wrapper {
-    width: min(920px, calc(100% - 48px));
-    margin: 56px auto 48px auto;
-  }
-
-  .profile-header {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    margin: 8px 0 30px 0;
-  }
-
-  .profile-photo {
-    width: 105px;
-    height: 105px;
-    object-fit: cover;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-
-  .profile-info h1 {
-    margin: 0 0 6px 0;
-    font-size: 30px;
-    line-height: 1.2;
-    font-weight: 600;
-  }
-
-  .profile-affiliation {
-    margin: 0 0 6px 0;
-    line-height: 1.45;
-  }
-
-  .profile-links {
-    margin: 0;
-    line-height: 1.45;
-  }
-
   .paper-list {
     counter-reset: paper-counter;
   }
@@ -114,52 +68,9 @@
     font-weight: normal;
     margin-right: 0.25em;
   }
-
-  @media (max-width: 600px) {
-    .wrapper {
-      width: calc(100% - 32px);
-      margin-top: 32px;
-    }
-
-    .profile-header {
-      align-items: flex-start;
-      gap: 16px;
-    }
-
-    .profile-photo {
-      width: 88px;
-      height: 88px;
-    }
-
-    .profile-info h1 {
-      font-size: 25px;
-    }
-  }
 </style>
 
 <button id="theme-toggle" type="button" aria-label="Toggle color mode">🌙</button>
-
-<div class="profile-header">
-  <img
-    src="/assets/img/profile2.png"
-    alt="Joonho (Phil) Hwang"
-    class="profile-photo"
-  >
-
-  <div class="profile-info">
-    <h1>Joonho (Phil) Hwang</h1>
-
-    <p class="profile-affiliation">
-      PhD Student in Economics<br>
-      Seoul National University
-    </p>
-
-    <p class="profile-links">
-      <a href="mailto:jhhwang24@snu.ac.kr">jhhwang24@snu.ac.kr</a><br>
-      <a href="/assets/files/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-    </p>
-  </div>
-</div>
 
 <p>
 Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-year PhD student in economics at Seoul National University, where I am fortunate to be advised by Professor <a href="https://sites.google.com/site/misspecifiedjay/">Seojeong Lee</a>. My research interests are in econometrics, especially panel data models and causal inference that exploits panel data structures, such as difference-in-differences designs. I am also interested in network econometrics and the use of machine learning methods in econometric analysis.
