@@ -4,10 +4,13 @@
 @import "{{ site.theme }}";   // Minimal 테마 CSS 먼저 불러오기
 
 /* =============================
-   색상 팔레트
+   색상 / 폰트 팔레트
    ============================= */
 
 :root {
+  --font-jaemin: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+                 "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
   --accent-green: #02AC3F;
   --accent-green-dark: #028A33;
 
@@ -28,15 +31,44 @@
 }
 
 /* =============================
-   전체 폰트 / 본문 스타일
+   전체 폰트 강제 적용
+   ============================= */
+
+html,
+body,
+.wrapper,
+header,
+section,
+footer,
+p,
+li,
+a,
+span,
+div,
+summary,
+details,
+button,
+input,
+textarea,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-jaemin) !important;
+}
+
+/* =============================
+   전체 본문 스타일
    ============================= */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-               "Helvetica Neue", Arial, sans-serif;
   color: var(--text-dark);
   font-size: 16px;
   line-height: 1.6;
+  font-weight: 400;
 }
 
 /* 페이지 맨 위 이름 */
@@ -44,13 +76,12 @@ header h1,
 header h1 a {
   color: #111111;
   font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 /* 섹션 제목 */
 h2, h3 {
   color: var(--heading-dark);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-               "Helvetica Neue", Arial, sans-serif;
   letter-spacing: 0.02em;
   margin-top: 1.5em;
   margin-bottom: 0.6em;
