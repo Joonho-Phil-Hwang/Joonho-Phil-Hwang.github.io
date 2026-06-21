@@ -2,14 +2,13 @@
 ---
 
 @import "{{ site.theme }}";   // Minimal 테마 CSS 먼저 불러오기
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
 
 /* =============================
    색상 / 폰트 팔레트
    ============================= */
 
 :root {
-  --font-sans: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --accent-green: #02AC3F;
   --accent-green-dark: #028A33;
@@ -66,9 +65,20 @@ h6 {
 
 body {
   color: var(--text-dark);
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 1.58;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 0.35em;
 }
 
 /* 페이지 맨 위 이름 */
@@ -76,7 +86,7 @@ header h1,
 header h1 a {
   color: #111111;
   font-weight: 400;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 /* 섹션 제목 */
@@ -274,7 +284,7 @@ details > summary::marker {
   font-size: 0.78rem;
   line-height: 1.2;
   font-weight: 500;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.02em;
   text-transform: none;
   text-decoration: none !important;
   transition:
