@@ -219,10 +219,6 @@ Hello. My name is Joonho (Phil) Hwang (황준호; 黃俊晧), and I am a fifth-y
 <h3>Work in progress</h3>
 
 <div class="paper-list">
-
-  <div class="paper-item" style="margin: 10px 0 14px 0;">
-    <span class="paper-title">Misclassification-Robust Network Fixed Effects</span>
-  </div>
   
   <div class="paper-item" style="margin: 10px 0 14px 0;">
     <span class="paper-title">Deep Panel Quantile Regression</span>
