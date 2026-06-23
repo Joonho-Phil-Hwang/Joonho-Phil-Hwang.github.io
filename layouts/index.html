@@ -1,8 +1,25 @@
 {{ define "main" }}
-  {{ partial "index_profile.html" . }}
-  <article class="post-single home-intro">
-    <div class="post-content">
-      {{ .Content }}
+  {{ with site.Params.profileMode }}
+  <article class="home-profile">
+    <img
+      class="home-profile-photo"
+      src="{{ .imageUrl | absURL }}"
+      alt="{{ .imageTitle | default "Profile photo" }}"
+      width="{{ .imageWidth | default 180 }}"
+      height="{{ .imageHeight | default 180 }}"
+    >
+    <h1>{{ .title | default site.Title }}</h1>
+    <div class="post-content home-intro">
+      {{ $.Content }}
+    </div>
+    {{ partial "social_icons.html" (dict "align" "left") }}
+    <div class="buttons">
+      {{ range .buttons }}
+      <a class="button" href="{{ .url }}" rel="noopener" title="{{ .name }}">
+        <span class="button-inner">{{ .name }}</span>
+      </a>
+      {{ end }}
     </div>
   </article>
+  {{ end }}
 {{ end }}
