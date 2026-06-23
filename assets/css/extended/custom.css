@@ -1,11 +1,45 @@
-.main .profile {
-  min-height: 0;
-  padding: 2rem 0 1rem;
+.home-profile {
+  max-width: 720px;
+  margin: 4rem auto;
+  text-align: left;
 }
 
-.home-intro {
-  max-width: 720px;
-  margin: 0 auto 2rem;
+.home-profile-photo {
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0 0 1.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.home-profile h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.home-profile .home-intro {
+  margin: 0;
+}
+
+.home-profile .social-icons,
+.home-profile .buttons {
+  justify-content: flex-start;
+}
+
+.home-profile .social-icons {
+  padding: 0.75rem 0 1.25rem;
+}
+
+.home-profile .buttons {
+  gap: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .home-profile {
+    margin: 2.5rem var(--gap);
+  }
 }
 
 .post-single .post-content h3 {
