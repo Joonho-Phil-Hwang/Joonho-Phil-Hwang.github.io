@@ -30,7 +30,7 @@ params:
     imageHeight: 180
     buttons:
       - name: Research
-        url: "#research"
+        url: "/research/"
       - name: CV
         url: "https://drive.google.com/file/d/13QDqi6l7taFGNiiQqLaE9hcR6tynHDkJ/view?usp=sharing"
   socialIcons:
