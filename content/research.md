@@ -1,8 +1,3 @@
----
-title: "Research"
-description: "Working papers and work in progress by Joonho (Phil) Hwang."
----
-
 ## Working papers
 
 ### Online Updating for Linear Panel Regressions
