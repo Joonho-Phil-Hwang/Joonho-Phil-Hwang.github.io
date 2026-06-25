@@ -1,11 +1,7 @@
 ## Research interests
 
-- Panel data econometrics
-- Causal inference with panel data structures
-- Network econometrics
-- Machine learning methods in econometric analysis
-
----
+- Panel data & network econometrics
+- Causal inference
 
 ## Working papers
 
