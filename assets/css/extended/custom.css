@@ -42,25 +42,113 @@
   }
 }
 
-.post-single .post-content h3 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.25rem;
-  font-size: 1.08rem;
+.research-page {
+  max-width: 820px;
+  margin: 2.5rem auto 0;
+  padding: 0 var(--gap);
 }
 
-.post-single .post-content details {
-  margin: 0.8rem 0 1.5rem;
-  padding: 0.7rem 0.9rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
+.research-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  font-size: 1.05rem;
+}
+
+.research-nav a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.research-nav a:hover {
+  text-decoration: underline;
+}
+
+.research-nav span {
+  color: var(--secondary);
+}
+
+.research-content {
+  max-width: 760px;
+}
+
+.research-content h2 {
+  margin: 2rem 0 0.85rem;
+  font-size: 1.45rem;
+}
+
+.research-content h2:first-child {
+  margin-top: 0;
+}
+
+.research-content ul {
+  margin-top: 0.4rem;
+}
+
+.research-content hr {
+  margin: 1.75rem 0 2.25rem;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+.research-content h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.25rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--border);
+  font-size: 1.05rem;
+}
+
+.research-content h2 + h3 {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.research-content h3 + p {
+  margin-top: 0.2rem;
+  color: var(--content);
+}
+
+.research-content details {
+  margin: 0.8rem 0 1.3rem;
+  padding: 0.65rem 0.85rem;
+  border-left: 3px solid var(--tertiary);
+  border-radius: 0.35rem;
   background: var(--code-bg);
 }
 
-.post-single .post-content summary {
+.research-content summary {
   cursor: pointer;
   font-weight: 600;
 }
 
-.post-single .post-content details p:last-child {
+.research-content details p:last-child {
   margin-bottom: 0;
+}
+
+.paper-links {
+  display: flex;
+  gap: 0.45rem;
+  margin-top: 0.45rem;
+}
+
+.paper-links a {
+  display: inline-block;
+  padding: 0.12rem 0.48rem;
+  border-radius: 999px;
+  background: var(--tertiary);
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.paper-links a:hover {
+  filter: brightness(0.96);
 }

@@ -1,6 +1,20 @@
 {{ define "main" }}
   <article class="post-single research-page">
-    <div class="post-content md-content">
+    <nav class="research-nav" aria-label="Research page navigation">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span>/</span>
+      <strong>Research</strong>
+      {{ with site.Params.profileMode.buttons }}
+        {{ range . }}
+          {{ if eq .name "CV" }}
+            <span>/</span>
+            <a href="{{ .url }}">CV</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </nav>
+
+    <div class="post-content md-content research-content">
       {{ .Content }}
     </div>
   </article>
