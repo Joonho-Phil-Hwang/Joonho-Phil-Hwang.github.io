@@ -16,7 +16,7 @@ In this paper, we develop online updating methods for linear panel regression mo
 
 **Award:** Best Third-Year Paper, Department of Economics, Seoul National University.
 
-**Presentations:** SNU Econometrics Workshop, SETA 2025 (University of Macau), University of Sydney, KERIC 2025, SNU Workshop on Recent Advances in Econometrics, SETA 2026 (University of Tokyo).
+**Presentations:** SNU Econometrics Workshop, SETA 2025 (University of Macau), University of Sydney, KERIC 2025 (SNU), SNU Workshop on Recent Advances in Econometrics, SETA 2026 (University of Tokyo).
 </details>
 
 ### On the Bracketing Relationship in Staggered Treatment Designs
