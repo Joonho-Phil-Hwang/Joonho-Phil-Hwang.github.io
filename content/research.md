@@ -32,6 +32,8 @@ Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimate
 
 ## Work in progress
 
+### Misclassification-Robust Network Fixed Effects
+
 ### Deep Panel Quantile Regression
 
 With [Chencheng Fang](https://ccfang2.github.io/) and [Gayeon Hong](https://sites.google.com/view/gayeon-hong/)
