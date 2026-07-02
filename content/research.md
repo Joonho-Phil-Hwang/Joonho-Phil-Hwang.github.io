@@ -21,7 +21,7 @@ In this paper, we develop online updating methods for linear panel regression mo
 
 ### On the Bracketing Relationship in Staggered Treatment Designs
 
-R&R at *Economic Letters*<br>
+R&R at *Economics Letters*<br>
 <span class="paper-links"><a href="https://drive.google.com/file/d/1OywpSJyjLC3es5_pC6MGTUEEu11rkCPJ/view?usp=sharing">PDF</a><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845">SSRN</a></span>
 
 <details>
