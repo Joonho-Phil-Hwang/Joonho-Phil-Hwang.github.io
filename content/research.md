@@ -7,7 +7,7 @@
 
 ### Online Updating for Linear Panel Regressions
 
-With [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/)
+with [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/)
 
 <details>
 <summary>Abstract</summary>
@@ -42,8 +42,8 @@ Network fixed effects regressions are widely used to control for unobserved hete
 
 ### Deep Panel Quantile Regression
 
-With [Chencheng Fang](https://ccfang2.github.io/) and [Gayeon Hong](https://sites.google.com/view/gayeon-hong/)
+with [Chencheng Fang](https://ccfang2.github.io/) and [Gayeon Hong](https://sites.google.com/view/gayeon-hong/)
 
 ### Synthetic Difference-in-Differences with Missing Post-Treatment Outcomes
 
-With [Chencheng Fang](https://ccfang2.github.io/)
+with [Chencheng Fang](https://ccfang2.github.io/)
