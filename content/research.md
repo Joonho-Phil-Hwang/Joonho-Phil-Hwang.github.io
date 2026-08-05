@@ -32,7 +32,7 @@ Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimate
 
 ## Work in progress
 
-### Misclassification-Robust Network Fixed Effects
+### Network Fixed Effects under Link Misclassification
 
 <details>
 <summary>Abstract</summary>
