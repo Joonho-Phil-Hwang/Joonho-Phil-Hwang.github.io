@@ -27,7 +27,7 @@ R&R at *Economics Letters*<br>
 <details>
 <summary>Abstract</summary>
 
-Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimates as upper and lower bounds on a treatment effect. This paper shows that this bracketing relationship can fail in staggered treatment designs. In staggered two-way fixed effects settings, neither estimator necessarily bounds the true group-time average treatment effect. Monte Carlo simulations show that such failures are common. The results suggest caution in using fixed-effects and LDV estimates as informal bounds in staggered-adoption settings.
+Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimates as upper and lower bounds on a treatment effect. This paper studies this comparison in staggered-treatment designs and shows that the conventional ordering of the two estimates is not generally preserved. The direction of the difference depends on cohort- and event-time-specific treatment effects, outcome persistence, and the alignment of treatment timing with unit and time heterogeneity. Thus, either estimator may serve as the lower or upper bound, and the ordering may vary across group-time cells. Monte Carlo simulations further show that the interval formed by the two realized point estimates frequently fails to contain the true group-time average treatment effect in finite samples. The results suggest that fixed-effects and LDV estimates should be viewed as a descriptive comparison rather than as guaranteed bounds.
 </details>
 
 ## Work in progress
