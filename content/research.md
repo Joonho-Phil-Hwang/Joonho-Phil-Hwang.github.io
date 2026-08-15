@@ -5,6 +5,14 @@
 
 ## Working papers
 
+### Fixed-Effect Regressions on Misclassified Networks
+
+<details>
+<summary>Abstract</summary>
+
+Network fixed effects regressions are widely used to control for unobserved heterogeneity across connected units, but their validity depends on observing the network accurately. This paper studies fixed effects regression when network links are misclassified. Misclassification happens when either some true links are missing or some recorded links are spurious. We show that the standard estimator is generally inconsistent, and that the two errors play very different roles: spurious links drive the bias. Because spurious links behave as if every pair of units were weakly connected, they attenuate broad, smooth variation in the fixed effects — differences at the level of regions, communities, or sectors — far more than localized variation, systematically washing out the large-scale heterogeneity that is typically of interest. We propose a bias-corrected estimator that removes the spurious-link component of the observed network and rescales for missing links. The corrected estimator is consistent when the true network is sufficiently well connected, supports asymptotically normal inference for the smooth functionals, and remains feasible because the misclassification rates can themselves be recovered from repeated measurements of the network.
+</details>
+
 ### Online Updating for Linear Panel Regressions
 
 with [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/)
@@ -32,18 +40,11 @@ Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimate
 
 ## Work in progress
 
-### Network Fixed Effects under Link Misclassification
-
-<details>
-<summary>Abstract</summary>
-
-Network fixed effects regressions are widely used to control for unobserved heterogeneity across connected units, but their validity depends on observing the network accurately. This paper studies fixed effects regression when network links are misclassified. Misclassification happens when either some true links are missing or some recorded links are spurious. We show that the standard estimator is generally inconsistent, and that the two errors play very different roles: spurious links drive the bias. Because spurious links behave as if every pair of units were weakly connected, they attenuate broad, smooth variation in the fixed effects — differences at the level of regions, communities, or sectors — far more than localized variation, systematically washing out the large-scale heterogeneity that is typically of interest. We propose a bias-corrected estimator that removes the spurious-link component of the observed network and rescales for missing links. The corrected estimator is consistent when the true network is sufficiently well connected, supports asymptotically normal inference for the smooth functionals, and remains feasible because the misclassification rates can themselves be recovered from repeated measurements of the network.
-</details>
-
-### Deep Panel Quantile Regression
+### Adaptive Mixed-Frequency Panel Quantile Forecasting
 
 with [Chencheng Fang](https://ccfang2.github.io/) and [Gayeon Hong](https://sites.google.com/view/gayeon-hong/)
 
-### Synthetic Difference-in-Differences with Missing Post-Treatment Outcomes
+<!-- ### Synthetic Difference-in-Differences with Missing Post-Treatment Outcomes-->
 
-with [Chencheng Fang](https://ccfang2.github.io/)
+<!-- with [Chencheng Fang](https://ccfang2.github.io/) -->
+
