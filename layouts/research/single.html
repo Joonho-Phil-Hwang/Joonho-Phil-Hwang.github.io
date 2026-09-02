@@ -4,4 +4,28 @@
       {{ .Content }}
     </div>
   </article>
+
+  {{/* Abstract pills toggle the next .paper-abstract block. Abstracts render
+       open without JavaScript, so the page degrades cleanly. */}}
+  <script>
+    (function () {
+      document.querySelectorAll(".paper-links .pl-abstract").forEach(function (btn) {
+        var body = btn.closest(".paper-links").nextElementSibling;
+        while (body && !body.classList.contains("paper-abstract")) {
+          body = body.nextElementSibling;
+        }
+        if (!body) {
+          btn.remove();
+          return;
+        }
+        body.hidden = true;
+        btn.addEventListener("click", function () {
+          var opening = body.hidden;
+          body.hidden = !opening;
+          btn.classList.toggle("is-open", opening);
+          btn.setAttribute("aria-expanded", String(opening));
+        });
+      });
+    })();
+  </script>
 {{ end }}

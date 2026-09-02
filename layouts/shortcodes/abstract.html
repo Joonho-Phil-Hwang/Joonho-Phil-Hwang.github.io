@@ -1,0 +1,9 @@
+{{- /* Abstract body opened by the Abstract pill in the preceding {{< links >}} row.
+
+     {{< abstract >}}
+     Markdown goes here.
+     {{< /abstract >}}
+*/ -}}
+<div class="paper-abstract">
+{{ .Page.RenderString (dict "display" "block") .Inner }}
+</div>

@@ -1,0 +1,34 @@
+{{- /* Pill-style link row for a paper.
+
+     {{< links pdf="…" ssrn="…" journal="…" journalname="Economics Letters"
+               arxiv="…" slides="…" code="…" >}}
+
+     `abstract="false"` drops the Abstract toggle; otherwise it is rendered and
+     opens the next `.paper-abstract` block (see layouts/research/single.html).
+     `journallabel` overrides the default "Journal" wording.
+*/ -}}
+{{- $journalTitle := "Published version" -}}
+{{- with .Get "journalname" }}{{ $journalTitle = printf "Published version — %s" . }}{{ end -}}
+<div class="paper-links">
+  {{- if ne (.Get "abstract" | default "true") "false" }}
+  <button class="pl pl-abstract" type="button" aria-expanded="false">Abstract</button>
+  {{- end }}
+  {{- with .Get "pdf" }}
+  <a class="pl pl-pdf" href="{{ . }}" target="_blank" rel="noopener">PDF</a>
+  {{- end }}
+  {{- with .Get "ssrn" }}
+  <a class="pl pl-ssrn" href="{{ . }}" target="_blank" rel="noopener" title="SSRN">{{ partial "logo-ssrn.html" . }}</a>
+  {{- end }}
+  {{- with .Get "arxiv" }}
+  <a class="pl pl-arxiv" href="{{ . }}" target="_blank" rel="noopener">arXiv</a>
+  {{- end }}
+  {{- with .Get "journal" }}
+  <a class="pl pl-journal" href="{{ . }}" target="_blank" rel="noopener" title="{{ $journalTitle }}">{{ $.Get "journallabel" | default "Journal" }}</a>
+  {{- end }}
+  {{- with .Get "slides" }}
+  <a class="pl pl-slides" href="{{ . }}" target="_blank" rel="noopener">Slides</a>
+  {{- end }}
+  {{- with .Get "code" }}
+  <a class="pl pl-code" href="{{ . }}" target="_blank" rel="noopener">Code</a>
+  {{- end }}
+</div>
