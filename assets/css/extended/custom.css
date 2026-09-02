@@ -135,24 +135,28 @@
   border-bottom-color: var(--pl-fg);
 }
 
-/* --- palette (light) ---------------------------------------------- */
+/* --- palette (light) ----------------------------------------------
+   SSRN (navy) and arXiv (Cornell red) are brand colours and fixed, so the
+   rest of the row is spaced around them: PDF takes the ochre complement of
+   the SSRN navy, Journal green reads as "published", and Abstract stays
+   neutral because it is a toggle rather than a link. */
 
 .pl-abstract { --pl-bg: #eef1f4; --pl-fg: #4b5765; --pl-bd: #dde3e9; }
-.pl-pdf      { --pl-bg: #fbeceb; --pl-fg: #a04539; --pl-bd: #f2d8d4; }
+.pl-pdf      { --pl-bg: #fbf0dd; --pl-fg: #8a5a1e; --pl-bd: #f1e1c2; }
 .pl-ssrn     { --pl-bg: #e9f0fa; --pl-fg: #154881; --pl-bd: #d2e0f2; }
-.pl-arxiv    { --pl-bg: #fbeaea; --pl-fg: #9a2222; --pl-bd: #f1d4d4; }
-.pl-journal  { --pl-bg: #e5f2ea; --pl-fg: #2e6b48; --pl-bd: #d0e6d9; }
-.pl-slides   { --pl-bg: #fdf1de; --pl-fg: #8a6112; --pl-bd: #f6e2c2; }
-.pl-code     { --pl-bg: #eeeaf8; --pl-fg: #54459b; --pl-bd: #dfd7f1; }
+.pl-arxiv    { --pl-bg: #fbecec; --pl-fg: #b31b1b; --pl-bd: #f2d6d6; }
+.pl-journal  { --pl-bg: #e5f2ea; --pl-fg: #2f6a49; --pl-bd: #d0e6d9; }
+.pl-slides   { --pl-bg: #eeeaf8; --pl-fg: #54459b; --pl-bd: #dfd7f1; }
+.pl-code     { --pl-bg: #e4f0f2; --pl-fg: #1f5f68; --pl-bd: #cfe4e8; }
 
 /* --- palette (dark) ----------------------------------------------- */
 
 [data-theme="dark"] .pl-abstract { --pl-bg: rgba(255, 255, 255, 0.07); --pl-fg: #ccd5de; --pl-bd: rgba(255, 255, 255, 0.18); }
-[data-theme="dark"] .pl-pdf      { --pl-bg: rgba(224, 120, 102, 0.16); --pl-fg: #f0b4a6; --pl-bd: rgba(224, 120, 102, 0.38); }
-[data-theme="dark"] .pl-arxiv    { --pl-bg: rgba(212, 84, 84, 0.16);   --pl-fg: #eda6a6; --pl-bd: rgba(212, 84, 84, 0.38); }
+[data-theme="dark"] .pl-pdf      { --pl-bg: rgba(214, 158, 76, 0.16);  --pl-fg: #e2bb7c; --pl-bd: rgba(214, 158, 76, 0.38); }
+[data-theme="dark"] .pl-arxiv    { --pl-bg: rgba(214, 76, 76, 0.16);   --pl-fg: #ec9d9d; --pl-bd: rgba(214, 76, 76, 0.38); }
 [data-theme="dark"] .pl-journal  { --pl-bg: rgba(90, 180, 132, 0.16);  --pl-fg: #9adcb7; --pl-bd: rgba(90, 180, 132, 0.38); }
-[data-theme="dark"] .pl-slides   { --pl-bg: rgba(220, 170, 80, 0.16);  --pl-fg: #edc887; --pl-bd: rgba(220, 170, 80, 0.38); }
-[data-theme="dark"] .pl-code     { --pl-bg: rgba(146, 126, 228, 0.17); --pl-fg: #c3b6f2; --pl-bd: rgba(146, 126, 228, 0.38); }
+[data-theme="dark"] .pl-slides   { --pl-bg: rgba(146, 126, 228, 0.17); --pl-fg: #c3b6f2; --pl-bd: rgba(146, 126, 228, 0.38); }
+[data-theme="dark"] .pl-code     { --pl-bg: rgba(76, 176, 190, 0.16);  --pl-fg: #8ad0da; --pl-bd: rgba(76, 176, 190, 0.38); }
 
 /* SSRN keeps its own brand navy: dark logo on a pale chip in light mode,
    white logo on the brand navy in dark mode. */
