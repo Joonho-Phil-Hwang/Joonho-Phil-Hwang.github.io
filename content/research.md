@@ -27,12 +27,15 @@ In this paper, we develop online updating methods for linear panel regression mo
 **Presentations:** SNU Econometrics Workshop, SETA 2025 (University of Macau), University of Sydney, KERIC 2025 (SNU), SNU Workshop on Recent Advances in Econometrics, SETA 2026 (University of Tokyo).
 {{< /abstract >}}
 
+## Publications
+
 ### On the Bracketing Relationship in Staggered Treatment Designs
 
-Accepted to *Economics Letters*
+Forthcoming, *Economics Letters*
 
 {{< links pdf="https://drive.google.com/file/d/1H5jOOK2tXjx_i2RRKmk9e-bi_uRfIGsz/view?usp=share_link" ssrn="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845" >}}
-<!-- Once it is out, add the published version to the row above:
+<!-- Once the DOI is live, add the published version to the row above and
+     replace "Forthcoming," with the volume and article number:
      journal="https://doi.org/10.1016/j.econlet.YYYY.NNNNNN" journalname="Economics Letters" -->
 
 {{< abstract >}}
