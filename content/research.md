@@ -33,7 +33,7 @@ In this paper, we develop online updating methods for linear panel regression mo
 
 *Economics Letters* (2026) 268, 113208
 
-{{< links pdf="https://drive.google.com/file/d/1H5jOOK2tXjx_i2RRKmk9e-bi_uRfIGsz/view?usp=share_link" ssrn="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845" journal="https://www.sciencedirect.com/science/article/pii/S0165176526004040" journalname="Economics Letters" >}}
+{{< links pdf="https://drive.google.com/file/d/1H5jOOK2tXjx_i2RRKmk9e-bi_uRfIGsz/view?usp=share_link" ssrn="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6683845" journal="https://doi.org/10.1016/j.econlet.2026.113208" journalname="Economics Letters" journallabel="DOI" >}}
 
 {{< abstract >}}
 Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimates as upper and lower bounds on a treatment effect. This paper studies this comparison in staggered-treatment designs and shows that the conventional ordering of the two estimates is not generally preserved. The direction of the difference depends on cohort- and event-time-specific treatment effects, outcome persistence, and the alignment of treatment timing with unit and time heterogeneity. Thus, either estimator may serve as the lower or upper bound, and the ordering may vary across group-time cells. Monte Carlo simulations further show that the interval formed by the two realized point estimates frequently fails to contain the true group-time average treatment effect in finite samples. The results suggest that fixed-effects and LDV estimates should be viewed as a descriptive comparison rather than as guaranteed bounds.
