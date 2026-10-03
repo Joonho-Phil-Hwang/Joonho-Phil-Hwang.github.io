@@ -41,7 +41,7 @@ Researchers often use fixed-effects and lagged-dependent-variable (LDV) estimate
 
 ## Work in progress
 
-### Adaptive Mixed-Frequency Panel Quantile Forecasting
+### Neural-Augmented Mixed-Frequency Panel Quantile Forecasting
 
 with [Chencheng Fang](https://ccfang2.github.io/) and [Gayeon Hong](https://sites.google.com/view/gayeon-hong/)
 
