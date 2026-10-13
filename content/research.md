@@ -13,14 +13,16 @@
 Network fixed effects regressions are widely used to control for unobserved heterogeneity across connected units, but their validity depends on observing the network accurately. This paper studies fixed effects regression when network links are misclassified. Misclassification happens when either some true links are missing or some recorded links are spurious. We show that the standard estimator is generally inconsistent, and that the two errors play very different roles: spurious links drive the bias. Because spurious links behave as if every pair of units were weakly connected, they attenuate broad, smooth variation in the fixed effects — differences at the level of regions, communities, or sectors — far more than localized variation, systematically washing out the large-scale heterogeneity that is typically of interest. We propose a bias-corrected estimator that removes the spurious-link component of the observed network and rescales for missing links. The corrected estimator is consistent when the true network is sufficiently well connected, supports asymptotically normal inference for the smooth functionals, and remains feasible because the misclassification rates can themselves be recovered from repeated measurements of the network.
 {{< /abstract >}}
 
-### Online Updating for Linear Panel Regressions
+### Fixed-Effects Estimation and Cluster-Robust Inference for Streaming Panel Data
 
 with [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/)
 
 {{< links >}}
 
 {{< abstract >}}
-In this paper, we develop online updating methods for linear panel regression models. Online updating refers to procedures for sequentially updating parameter estimates as new data become available. In practice, the potential size of the dataset or data confidentiality constraints may preclude researchers from storing or accessing the entire dataset. We propose an online updating procedure for widely used linear regression models in panel data, where data expansion can occur through either (1) the arrival of new units or (2) the arrival of additional time periods for existing units. The proposed procedure yields closed-form expressions for updating both the point estimates and associated standard errors in each scenario.
+Panel datasets grow over time: a new unit enters, an existing unit reports an observation for a period it had missed, or a new period begins. Re-estimating a fixed-effects regression after each arrival is costly for a large panel and impossible once the earlier observations are gone. We derive recursive formulas for the least-squares coefficient and the unit-clustered covariance matrix that reproduce the full-sample estimates after each arrival. They allow for the change in a returning unit's within transformation and for the added time effect in a two-way model. The exact covariance recursion stores two matrices whose size grows with the fourth power of the number of regressors. We therefore propose an approximation that stores one score vector per unit and keeps the coefficient estimate exact. Under homoskedastic and serially uncorrelated errors, the approximate covariance is unbiased for the variance of the coefficient estimator. As the number of units grows with the numbers of regressors and periods fixed, it is asymptotically equivalent to the exact covariance. We prove this when new units arrive and when every unit adds one observation. An application adds years one at a time to an extended two-way fixed-effects regression for Community Health Centers.
+
+***Note:*** This paper supersedes “Online Updating for Linear Panel Regressions”
 
 **Award:** Best Third-Year Paper, Department of Economics, Seoul National University.
 
