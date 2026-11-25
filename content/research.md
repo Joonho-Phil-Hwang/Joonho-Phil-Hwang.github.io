@@ -7,11 +7,11 @@
 
 ### Fixed-Effect Regression with Link Misclassification
 
-<!-- {{< links >}}
+{{< links >}}
 
 {{< abstract >}}
-Network fixed effects regressions are widely used to control for unobserved heterogeneity across connected units, but their validity depends on observing the network accurately. This paper studies fixed effects regression when network links are misclassified. Misclassification happens when either some true links are missing or some recorded links are spurious. We show that the standard estimator is generally inconsistent, and that the two errors play very different roles: spurious links drive the bias. Because spurious links behave as if every pair of units were weakly connected, they attenuate broad, smooth variation in the fixed effects — differences at the level of regions, communities, or sectors — far more than localized variation, systematically washing out the large-scale heterogeneity that is typically of interest. We propose a bias-corrected estimator that removes the spurious-link component of the observed network and rescales for missing links. The corrected estimator is consistent when the true network is sufficiently well connected, supports asymptotically normal inference for the smooth functionals, and remains feasible because the misclassification rates can themselves be recovered from repeated measurements of the network.
-{{< /abstract >}} -->
+Fixed-effect regressions on network data estimate node effects from outcomes on links. We study these regressions when links are misclassified. False negatives (links that are not reported) alone cause no distortion. False positives (nonlinks that are reported as links) do: apart from sampling variation, they pull particular linear combinations of the estimated effects toward zero when nonlinks have mean outcome zero, and nonzero means add a shift. This attenuation need not vanish in large networks. We therefore adjust the regression for the false positives. When nodes have many links, the adjusted estimator is consistent, and a bias-adjusted estimator of a contrast of the effects (e.g., the difference between two groups of nodes) is asymptotically normal. When nodes have few links, the adjusted estimator is unreliable, because it magnifies the noise in the reports and its bias does not vanish. In this case, we propose an alternative method that splits the sample, tests each candidate value of the contrast, and keeps the values that are not rejected. Under suitable conditions, the resulting confidence set is valid for the linear combination of the effects that the test measures, which need not equal the contrast. In an application to gifts between households in a Tanzanian village, the unadjusted regression finds that gifts flow from richer to poorer households, but the confidence set that allows for link misclassification contains zero.
+{{< /abstract >}} 
 
 ### Fixed-Effects Estimation and Cluster-Robust Inference for Streaming Panel Data
 
