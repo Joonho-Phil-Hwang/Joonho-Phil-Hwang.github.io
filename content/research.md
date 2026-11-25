@@ -5,7 +5,7 @@
 
 ## Working papers
 
-### Fixed-Effect Regressions with Link Misclassification
+### Fixed-Effect Regression with Link Misclassification
 
 <!-- {{< links >}}
 
